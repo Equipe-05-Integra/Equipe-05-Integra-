@@ -1,5 +1,5 @@
 # Integra+
-# Acessibilidade inteligente para empresas reais.
+Acessibilidade inteligente para empresas reais.
 
 A Integra+ é uma plataforma voltada para transformar a forma como empresas enxergam e aplicam a acessibilidade em seus espaços e serviços.
 
