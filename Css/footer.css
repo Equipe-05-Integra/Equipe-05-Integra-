@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+footer{
+    background-color:#1C2333 ;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+
+p{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container_rede_sociais{
+    padding-top: 30px;
+    gap: 40px;
+    ;
+}
+
+.texto1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.texto2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.texto3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
