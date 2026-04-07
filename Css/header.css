@@ -272,13 +272,12 @@ header{
 
 /*-------------   VERSÃO TABLET  -----------------*/
 
-    @media(max-width: 1024px){
-
+    @media(max-width: 1024px) and (min-width: 421px) {
+      
         header {
             padding: 10px;
             justify-content: space-between;
             padding-left: 40px;
-            gap: 0;
         }
 
         .links_container{
@@ -308,9 +307,11 @@ header{
 }   
 
 
+
+
 /*-------------  VERSÃO MOBILE -----------------*/
 
- @media(max-width: 420px){
+ @media(max-width: 420px) {
 
       header {
             padding-left: 0;
@@ -339,7 +340,7 @@ header{
         }
 
         .botao_menu_lateral{
-           display: block;
+           display:inline;
            cursor: pointer;
         } 
     }

@@ -1,0 +1,68 @@
+class Footer extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+          <footer>
+        <div class="logo_footer">
+            <img src="../img/Logo_Integra_footer.svg" alt="Logo da integra mais no rodapé">
+        </div>
+
+        <p> 
+            A plataforma que ajuda empresas a
+            medir, <br> planejar e executar a
+            transformação para <br> a acessibilidade
+            real e inclusão genuína.
+        </p>
+
+        <div class="container_rede_sociais">
+
+            <a href="futuero_link_linkedin">
+                <img src="../img/Linkedin.svg" alt="Icone de acesso ao Linkedin">
+            </a>
+
+            <a href="futuro_Link_instagram">
+                <img src="../img/Facebook.svg" alt="Icone de acesso ao Instagram">
+            </a>
+
+            <a href=href="futuro_Link_facebook">
+                <img src="../img/Instagram.svg" alt="Icone de acesso ao futuro_Link_facebook">
+            </a>
+
+            <a href="href="futuro_Link_linktree">
+                <img src="../img/Linkee.svg" alt=" Icone de acesso ao Linkee">
+            </a>
+        </div>
+
+        <div class="texto1">
+            <h4 class="texto1"> Plataforma </h4>
+
+                <a> Quem Somos </a>
+                <a> Serviços Suporte </a>
+                <a> Treinamentos </a>
+                <a> Diagnostido Básico </a>
+        </div>
+
+        <div class="texto2">
+            <h4> Recursos </h4>
+
+                <a>Acessibilidade no Brasil</a>
+                <a>Guia NBR 9050</a>
+                <a>WCAG para empresas</a>
+                <a>Diagnostico Detalhado</a>
+                <a>Avaliações</a>
+        </div>
+
+        <div class="texto3">
+            <h4> Contato </h4>
+                <a>integra_mais@gmail.com</a>
+                <a>(11) 3123-4567</a>
+                <a>Av. Paulista, 1234 — São Paulo (Local)</a>
+                <a>Seg–Sex, 9h–18h (Suporte)</a>
+        </div>
+
+    </footer>
+    `;
+    }
+}
+
+customElements.define('footer-componente', Footer);
+
