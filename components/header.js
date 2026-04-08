@@ -3,6 +3,7 @@ class Header extends HTMLElement{
     
         this.innerHTML = `
         <header>
+        <div class="header_container">
             <div class="container_logo">
                 <img src="/img/Logo_Integra+.svg" alt="Logo_da_Integra_mais">
             </div>
@@ -44,6 +45,7 @@ class Header extends HTMLElement{
                 </nav>
             </aside>
             <div class="overlay" id="overlay"></div>
+        </div>
             `;
 
             function configurarAnimacoes() {
@@ -71,7 +73,4 @@ class Header extends HTMLElement{
     }
 }
     
-
-
-
 customElements.define("header-component", Header )
