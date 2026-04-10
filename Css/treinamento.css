@@ -1,0 +1,310 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    height: 7400px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+#home_page {
+    background-color: #1b2232;
+    width: 100%;
+    height: auto;
+    color: white;
+    display: flex;
+}
+
+.home_texto {
+    width: 50%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.home_texto h1 {
+    width: 110%;
+    line-height: 0.90; /* altura das letras*/
+    font-family: montserrat;
+    font-size: 65px;
+
+}
+
+.destaque {
+    color: #E85D1A;
+}
+
+.home_p {
+    width: 100%;
+    height: auto;
+    font-size: 25px;
+}
+
+.botoes {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 26px;
+    gap: 21px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #E85D1A;
+    gap: 10px;
+    border-radius: 16px;
+}
+
+.botao1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #373D4B;
+    gap: 10px;
+    border-radius: 16px;
+    border: 3px solid #737781;
+}
+
+/* efeito dos botões */
+.botao1:hover, .botao:hover {
+    animation: arcoIris 2s linear infinite;
+    transform: translateY(-3px);
+}
+.botao1:hover {
+    background-color: #2a2f3a; 
+}
+.botao:hover {
+    background-color: #c44d14;
+}
+.botao1:active, .botao:active {
+    transform: scale(0.97); 
+}
+.botao1:active {
+    background-color: #1e222a;
+}
+.botao:active {
+    background-color: #a03e10;
+}
+
+/* Definição do movimento de "levitar" */
+@keyframes flutuar {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); } 
+    100% { transform: translateY(0px); }
+}
+
+.card_dados, .card_certi, .card_trof {
+    animation: flutuar 3s ease-in-out infinite;
+}
+.card_certi { animation-delay: 0.5s; }
+.card_trof { animation-delay: 1s; }
+
+.home_dados {
+    position: relative;
+    margin-left: 90px;
+    margin-top: 151px;
+    width: 571px;
+    height: 390px;
+    color: black;
+    font-family: Bricolage Grotesque;
+}
+
+.card_trof {
+    position: absolute;
+    width: 245px;
+    height: 77px;
+    left: 326px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    z-index: 3;
+}
+
+.card_trof p {
+    font-size: 14px;
+}
+
+.card_trof img {
+    width: 20px;
+    height: 40px;
+}
+
+.card_dados {
+    position: absolute;
+    left: 64px;
+    top: 47px;
+    width: 474px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    padding-bottom: 20px;
+    z-index: 2;
+}
+
+#head_dados {
+    padding: 30px 35px 15px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+#head_dados p {
+    font-size: 14px;
+    color: #000000
+}
+
+.barras {
+    padding: 0 35px;
+}
+
+.pro {
+    margin-bottom: 20px;
+}
+
+.inf {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.inf p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.barra-fundo {
+    width: 100%;
+    height: 8px;
+    background-color: #eee;
+    border-radius: 10px;
+    position: relative;
+}
+/* animaço */
+.barra-progresso {
+    height: 100%;
+    border-radius: 20px;
+    width: 0;
+    animation: carregarBarra 1.5s forwards cubic-bezier(0.1, 0.5, 0.5, 1);
+}
+@keyframes carregarBarra {
+    to {
+        width: var(--percentual); 
+    }
+}
+
+#verde {
+    --percentual: 94%;
+    background-color: #22c55e;
+    animation-delay: 0.2s; 
+}
+
+#azul {
+    --percentual: 88%;
+    background-color: #3b82f6;
+    animation-delay: 0.4s;
+}
+
+#amarelo {
+    --percentual: 81%;
+    background-color: #eab308;
+    animation-delay: 0.6s;
+}
+
+
+.card_certi {
+    position: absolute;
+    width: 245px;
+    height: 77px;
+    background-color: #fff;
+    border-radius: 20px;
+    top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.card_certi p {
+    font-size: 14px;
+    color: #000;
+}
+/* fim da home_page*/
+
+bloco laranja*/
+#bloco_laranja {
+    margin-top: 129px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    color: #fff;
+    background-color: #E85D1A;
+    width: 90%; 
+    display: flex;
+    padding: 69px;
+    justify-content: center;
+    margin-left:5%;
+}
+.conteiner_texto{
+    display: flex;
+    flex-direction: row; 
+    width: 100%;
+    height: 460px;
+}
+.texto_laranja1{
+    display: flex;
+    flex-direction: column; 
+    gap: 50px; 
+    margin-top: 60px;
+    margin-left: 22px;
+}
+.texto_grupo{
+    width: 50%;
+    justify-content: space-between;
+    font-size: 30px;
+    line-height: 0.80;
+    display: flex;
+    flex-direction: column; 
+    gap: 50px;
+}
+#laranja_h1{
+    width: 95%;
+    margin-bottom: 0;
+}
+.laranja_p{
+    font-size: 25px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+.Bloc_laranja_img{
+    flex: 1;                  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Bloc_laranja_img img {
+    height:500px;
+    width: auto;
+    border-radius: 20px;
+}
+/* bloco laranja
