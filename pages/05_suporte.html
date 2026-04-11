@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width>, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../Css/suporte.css">
      <link rel="stylesheet" href="../Css/header.css" >
     <link rel="stylesheet" href="../Css/footer.css">
+    <link rel="stylesheet" href="../Css/suporte.css">
     <script src="../components/footer.js" ></script>
     <script src="../components/header.js" ></script>
     
@@ -31,25 +31,48 @@
                     <span class="si--book-line"></span>
                     <h3 class="geralh3">Geral</h3>
                     <p class="geralp">Informações gerais sobre a Integra+ e como funciona</p>
-                    <p class="geralp1">Ver perguntas <span class="ep--right"></span></p>
+                    <p class="geralp1">Ver perguntas <span class="ep--right"></span></p> </div>
+                    
                 <div class="planos">
-                    <span class="material-symbols--credit-card-outline"></span>
+                    <span class="solar--card-bold"></span>
                     <h3 class="planosh3">Planos e pagamentos</h3>
                     <p class="planosp">Tire suas dúvidas sobre nossos planos e preços</p>
-                    <p class="planosp1">Ver perguntas</p>
+                    <p class="planosp1">Ver perguntas<span class="ep--right"></span></p>
                 </div>
-                </section>
-                <!--<div class="tecnico">
-                    <span class="material-symbols--account-balance"></span>
-                    <h3>Legislação</h3>
-                    <p>Entenda as obrigações legais de acessibilidade</p>
-                    <p>Ver perguntas</p>
+
+                <div class="tecnico">
+                    <span class="codicon--law"></span>
+                    <h3 class="tecnicoh3">Legislação</h3>
+                    <p class="tecnicop">Entenda as obrigações legais de acessibilidade</p>
+                    <p class="tecnicop1">Ver perguntas<span class="ep--right"></span></p>
                 </div>
+
                 </section>
                 <h1 class="fale">Fale com a <span>nossa equipe</span></h1>
                 <p class="preencha">Preencha o formulário abaixo e entraremos em contato o mais rápido possível.</p>
             </article>
-       
+            <section id="form">
+                <form action="">
+                    <div class= "nome">
+                    <label for="nome">Nome completo</label>
+                    <input type="text" placeholder="Seu nome" name="" id="nome">
+                    </div>
+                    <div class="email">
+                    <label for="email">E-mail</label>
+                    <input type="email" placeholder="seuemail@gmail.com" name="" id="email">
+                    </div>
+                    <div class="assunto">
+                    <label for="assunto">Assunto</label>
+                    <input type="text" placeholder="Qual o assunto?" id="assunto">
+                    </div>
+                    <div class="mensagem">
+                    <label for="mensagem">Mensagem</label>
+                    <input type="text" placeholder="Descreva como podemos te ajudar" id="mensagem">
+                    </div>
+                    <button>Enviar mensagem</button>
+                </form>
+            </section>
     </main>
+    <footer-componente></footer-componente>
 </body>
 </html>
