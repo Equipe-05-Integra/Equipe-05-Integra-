@@ -29,7 +29,7 @@
                              <a>Quem Somos</a>
                              <a>Serviços</a>
                              <a>Suporte</a>
-                             <a>Treinamentos</a>
+                             <a href="../pages/04_treinamentos.html">Treinamentos</a>
                              <a>Diagnóstico Básico</a>
                          </nav>
                      </div>

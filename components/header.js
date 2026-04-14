@@ -11,7 +11,7 @@ class Header extends HTMLElement{
                 <a href="#">Inicio </a>
                 <a href="#">Quem Somos </a>
                 <a href="#">Serviços </a>
-                <a href="#">Treinamentos </a>
+                <a href="../pages/04_treinamentos.html">Treinamentos </a>
                 <a href="#">Suporte </a>
                 <a href="#">Noticias </a>
             </nav>
@@ -39,7 +39,7 @@ class Header extends HTMLElement{
                     <a href="#">Inicio</a>
                     <a href="#">Quem Somos</a>
                     <a href="#">Serviços</a>
-                    <a href="#">Treinamentos</a>
+                    <a href="../pages/04_treinamentos.html">Treinamentos</a>
                     <a href="#">Suporte</a>
                     <a href="#">Diagnóstico</a>
                 </nav>

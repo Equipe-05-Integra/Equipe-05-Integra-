@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Treinamento</title>
     <link rel="stylesheet" href="../Css/treinamento.css">
     <link rel="stylesheet" href="/Css/header.css">
     <link rel="stylesheet" href="/Css/footer.css">
@@ -30,7 +30,7 @@
                 </div>
 
                 <div class="botoes">
-                    <a href="#" class="botao">
+                    <a href="#questionario" class="botao">
                         Agendar treinamento
                     </a>
                 </div>
@@ -197,12 +197,12 @@
                             1
                         </div>
                         <div class="texto_consultoria">
-                        <div class="h2_consultoria">
-                            <h2>Avaliação Inicial</h2>
-                        </div>
-                        <div class="p_consultoria">
-                            <p>Visitamos seu espaço e analizamos todos os pontos de contato com o publico </p>
-                        </div>
+                            <div class="h2_consultoria">
+                                <h2>Avaliação Inicial</h2>
+                            </div>
+                            <div class="p_consultoria">
+                                <p>Visitamos seu espaço e analizamos todos os pontos de contato com o publico </p>
+                            </div>
                         </div>
                     </div>
                     <div class="img_consul">
@@ -217,12 +217,13 @@
                             2
                         </div>
                         <div class="texto_consultoria">
-                        <div class="h2_consultoria">
-                            <h2>Diagnóstico Detalhado</h2>
-                        </div>
-                        <div class="p_consultoria">
-                            <p>Identificando barreiras reias e criamos um relatrio completo com pontos de melhoria</p>
-                        </div>
+                            <div class="h2_consultoria">
+                                <h2>Diagnóstico Detalhado</h2>
+                            </div>
+                            <div class="p_consultoria">
+                                <p>Identificando barreiras reias e criamos um relatrio completo com pontos de melhoria
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="img_consul">
@@ -236,12 +237,13 @@
                             3
                         </div>
                         <div class="texto_consultoria">
-                        <div class="h2_consultoria">
-                            <h2>Treinamento de Equipe</h2>
-                        </div>
-                        <div class="p_consultoria">
-                            <p>Capacitamos seus colaboradores com workshops práticos sobre inclusão e acessibilidade</p>
-                        </div>
+                            <div class="h2_consultoria">
+                                <h2>Treinamento de Equipe</h2>
+                            </div>
+                            <div class="p_consultoria">
+                                <p>Capacitamos seus colaboradores com workshops práticos sobre inclusão e acessibilidade
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="img_consul">
@@ -256,12 +258,12 @@
                             4
                         </div>
                         <div class="texto_consultoria">
-                        <div class="h2_consultoria">
-                            <h2>Implementação e Acompanhameto</h2>
-                        </div>
-                        <div class="p_consultoria">
-                            <p>Orientamos as mudanças necessárias e acompanhamos os resultados</p>
-                        </div>
+                            <div class="h2_consultoria">
+                                <h2>Implementação e Acompanhameto</h2>
+                            </div>
+                            <div class="p_consultoria">
+                                <p>Orientamos as mudanças necessárias e acompanhamos os resultados</p>
+                            </div>
                         </div>
                     </div>
                     <div class="img_consul">
@@ -285,23 +287,241 @@
 
                 <div id="trindades">
                     <div class="bloco">
-                        <h3>96%</h3>
-                        <h4>Satisfação dos Clientes</h4>
-                        <p>Empresas relatam melhoria significativa na experiencia do cliente </p>
+                        <h3 class="trin_h3" data-numero="96">0%</h3>
+                        <div class="trin">
+                            <div class="trin_h4">
+                                <h4>Satisfação dos Clientes</h4>
+                            </div>
+                            <div class="trin_p">
+                                <p>Empresas relatam melhoria significativa na experiencia do cliente</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bloco">
+
+                        <h3 class="trin_h3" data-numero="82">0%</h3>
+                        <div class="trin">
+                            <div class="trin_h4">
+                                <h4>Aumento de Acesso</h4>
+                            </div>
+                            <div class="trin_ps">
+                                <p>Mais pessoa consgue ultilizar o espaço com autinomia</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bloco">
+
+                        <h3 class="trin_h3" data-numero="3">0x</h3>
+                        <div class="trin">
+                            <div class="trin_h4">
+                                <h4>Mais Conscientização</h4>
+                            </div>
+                            <div class="trin_pd">
+                                <p>Equipe treinadas identificam e resolvem barreiras proativamente</p>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
             </div>
+            <div id="parte2">
 
+                <h2 class="titulo">Veja o que dizem os profissionais que participaram dos nossos treinamentos.</h2>
+
+                <div class="moldura">
+                    <button class="seta esq" onclick="rolar('esq')">&#10094;</button>
+                    <button class="seta dir" onclick="rolar('dir')">&#10095;</button>
+
+                    <div class="janela">
+                        <div class="trilho">
+                            <div class="item">
+                                <div class="estrelas">★★★★★</div>
+                                <p>"A consultoria foi essencial para enxergarmos falhas no atendimento e no nosso espaço
+                                    físico."</p>
+                                <div class="perfil">
+                                    <div class="foto laranja">MG</div>
+                                    <div class="info"><strong>Maito Gai</strong><span>Gerente de RH | PowerFit
+                                            academia</span></div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="estrelas">★★★★★</div>
+                                <p>"Conseguimos adaptar nossos processos e melhorar a comunicação interna rapidamente."
+                                </p>
+                                <div class="perfil">
+                                    <div class="foto verde">OM</div>
+                                    <div class="info"><strong>Ororo Munroe</strong><span>Gerente Adm | Escola Futuro
+                                            Brilhante</span></div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="estrelas">★★★★★</div>
+                                <p>"O impacto foi visível tanto internamente quanto na percepção direta dos nossos
+                                    clientes."</p>
+                                <div class="perfil">
+                                    <div class="foto roxo">AF</div>
+                                    <div class="info"><strong>Alucard Fahrenheit </strong><span>Líder de
+                                            Operações | Castlevania Belmont</span></div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="estrelas">★★★★★</div>
+                                <p>"As orientações práticas transformaram a cultura da nossa empresa em poucas semanas."
+                                </p>
+                                <div class="perfil">
+                                    <div class="foto azul">k</div>
+                                    <div class="info"><strong>Katara</strong><span>Diretora Executiva | Tribo
+                                            d'água</span></div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="estrelas">★★★★★</div>
+                                <p>"Excelente suporte! O treinamento trouxe clareza para toda a nossa equipe."
+                                </p>
+                                <div class="perfil">
+                                    <div class="foto laranja">WA</div>
+                                    <div class="info"><strong>William Afton</strong><span>Gerente | Five Nights at
+                                            Freddy's </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
+        <section id="questionario">
+            <div class="formulario">
+                <h1 class="titulo_quest">Agende seu Treinamento</h1>
+                <p class="texto-apoio">Solicitação respondida em até 10 dias</p>
+
+                <form id="meuFormulario" onsubmit="enviar(event)">
+
+                    <div class="form uma-coluna">
+                        <label for="empresa">Nome da Empresa</label>
+                        <input type="text" id="empresa" class="campo" placeholder="Ex: Empresa ABC Ltda." required>
+                    </div>
 
 
+                    <div class="duas-colunas">
+                        <div class="form">
+                            <label for="treinamento">Tipo de Treinamento</label>
+                            <select id="treinamento" class="campo" required>
+                                <option value="" disabled selected>Selecione...</option>
+                                <option value="digital">Acessibilidade Digital</option>
+                                <option value="inclusao">Inclusão e Diversidade</option>
+                                <option value="atendimento">Atendimento Inclusivo</option>
+                                <option value="arquitetura">Arquitetura Acessível</option>
+                                <option value="lideranca">Liderança Inclusiva</option>
+                            </select>
+                        </div>
+                        <div class="form">
+                            <label for="espaco">Tipo de Espaço</label>
+                            <select id="espaco" class="campo" required>
+                                <option value="" disabled selected>Selecione...</option>
+                                <option value="escritorio">Escritório Corporativo</option>
+                                <option value="loja">Loja / Comércio</option>
+                                <option value="escola">Escola / Universidade</option>
+                                <option value="hospital">Hospital / Clínica</option>
+                                <option value="evento">Eventos e Feiras</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="duas-colunas">
+                        <div class="form">
+                            <label for="estado">Estado</label>
+                            <select id="estado" class="campo" required>
+                                <option value="" disabled selected>Selecione...</option>
+                                <option value="AC">Acre</option>
+                                <option value="AL">Alagoas</option>
+                                <option value="AP">Amapá</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="DF">Distrito Federal</option>
+                                <option value="ES">Espírito Santo</option>
+                                <option value="GO">Goiás</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="PA">Pará</option>
+                                <option value="PB">Paraíba</option>
+                                <option value="PR">Paraná</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RR">Roraima</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="SE">Sergipe</option>
+                                <option value="TO">Tocantins</option>
+
+                            </select>
+                        </div>
+                        <div class="form">
+                            <label for="cidade">Cidade</label>
+                            <input type="text" id="cidade" class="campo" placeholder="Ex: São Paulo" required>
+                        </div>
+                    </div>
+
+
+                    <div class="form uma-coluna">
+                        <label for="horario">Horário de Preferência</label>
+                        <select id="horario" class="campo" required>
+                            <option value="" disabled selected>Selecione o período...</option>
+                            <option value="manha">Manhã (08h às 12h)</option>
+                            <option value="tarde">Tarde (13h às 18h)</option>
+                            <option value="noite">Noite (Após 18h)</option>
+                        </select>
+                    </div>
+
+
+                    <div class="duas-colunas">
+                        <div class="form">
+                            <label for="nome">Seu Nome</label>
+                            <input type="text" id="nome" class="campo" placeholder="Nome completo" required>
+                        </div>
+                        <div class="form">
+                            <label for="email">E-mail Corporativo</label>
+                            <input type="email" id="email" class="campo" placeholder="voce@empresa.com.br" required>
+                        </div>
+                    </div>
+
+
+                    <button type="submit" id="botaoAcao" class="botao-azul">
+                        Finalize sua solicitação
+                    </button>
+
+                    <div id="msgSucesso" class="sucesso">
+                        Solicitação enviada com sucesso!
+                    </div>
+
+                    <div class="rodapee">
+                        Seus dados estão seguros. Não enviamos spam.
+                    </div>
+                </form>
+            </div>
+
+        </section>
     </main>
+    <a href=""></a>
 
     <footer-componente></footer-componente>
-
 </body>
+
+<script src="../components/treinamento.js"></script>
 <div vw class="enabled">
     <div vw-access-button class="active"></div>
     <div vw-plugin-wrapper>
