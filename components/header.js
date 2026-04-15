@@ -5,7 +5,7 @@ class Header extends HTMLElement{
         <header>
         <div class="header_container">
             <div class="container_logo">
-                <img src="/img/Logo_Integra+.svg" alt="Logo_da_Integra_mais">
+                <img src="../img/Logo_Integra+.svg" alt="Logo_da_Integra_mais">
             </div>
             <nav class="links_container">
                 <a href="#">Inicio </a>
@@ -17,18 +17,18 @@ class Header extends HTMLElement{
             </nav>
             <div class="container_botoes">
                 <div class="icone_perfil">
-                    <img src="/img/Login.svg" alt="Botao_de_login" >
+                    <img src="../img/Login.svg" alt="Botao_de_login" >
                 </div>
                 <button class="botao_de_diagnostico">Diagnosticar</button>
                 <div class="botao_menu_lateral">
-                    <img src="/img/Menu_sanduiche.svg" alt="botao_de_menu_lateral">
+                    <img src="../img/Menu_sanduiche.svg" alt="botao_de_menu_lateral">
                 </div>
             </div>
             </header>
             
             <aside class="container_menu_lateral">
                 <div class="header_menu_lateral">
-                    <img src="/img/Logo_Integra+.svg" alt="Logo da integra no menu lateral"> 
+                    <img src="../img/Logo_Integra+.svg" alt="Logo da integra no menu lateral"> 
                     <button class="botao_fechar"><img src="/img/icone_de_fechar.svg" alt=" Botao de fechar menu lateral "></button>
                 </div>
                 <div class="botoes_menu_lateral">
