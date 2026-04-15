@@ -725,53 +725,49 @@ main {
     width: 90%;
     margin: 100px auto;
     display: flex;
-    align-items: center;
     flex-direction: column;
-    gap: 50px;
-    justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 
-.formulario {
-    width: 90%;
+.formulario { 
+    width: 60%; 
 }
 
 .titulo_quest {
-    display: flex;
-    justify-content: center;
     font-size: 30px;
     font-weight: 800;
-    margin-bottom: 10px;
     letter-spacing: -1px;
-    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .texto-apoio {
-    display: flex;
-    justify-content: center;
     font-size: 19px;
     color: #2a2b2c;
+    text-align: center;
     margin-bottom: 50px;
 }
+
 form {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 14px;
 }
 
 .form {
-    padding: 25px 30px;
+    padding: 16px 20px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    gap: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    transition: transform .3s, box-shadow .3s;
 }
 
 .item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 40px rgba(0,0,0,.3);
 }
 
 .item label {
@@ -784,21 +780,20 @@ form {
 
 .campo {
     width: 100%;
-    height: 55px;
-    background-color: #f8f7f4;
+    height: 42px;
+    background: #f8f7f4;
     border: 2px solid transparent;
     border-radius: 12px;
-    padding: 0 20px;
-    font-size: 16px;
-    font-family: "Montserrat", sans-serif;
+    padding: 0 14px;
+    font: 14px "Montserrat", sans-serif;
     color: #1e293b;
     outline: none;
-    transition: 0.2s;
+    transition: .2s;
 }
 
 .campo:focus {
     border-color: #2160a9;
-    background-color: white;
+    background: white;
 }
 
 .duas-colunas {
@@ -807,52 +802,44 @@ form {
     gap: 20px;
 }
 
-.uma-coluna {
-    width: 100%;
-}
-
 .botao-azul {
+    display: block;
     width: 50%;
-    margin: auto;
-    background-color: #2160a9;
+    margin: 20px auto 0;
+    height: 50px;
+    background: #2160a9;
     color: white;
-    height: 75px;
-    border-radius: 40px;
     border: none;
-    font-size: 18px;
+    border-radius: 40px;
+    font-size: 15px;
     font-weight: 800;
     cursor: pointer;
-    margin-top: 20px;
-    transition: all 0.3s ease;
-    box-shadow: 0 10px 20px rgba(33, 96, 169, 0.3);
+    transition: all .3s;
+    box-shadow: 0 10px 20px rgba(33,96,169,.3);
 }
 
 .botao-azul:hover {
-    background-color: #1a4d87;
+    background: #1a4d87;
     transform: translateY(-3px);
-    box-shadow: 0 15px 30px rgba(33, 96, 169, 0.4);
+    box-shadow: 0 15px 30px rgba(33,96,169,.4);
 }
 
-.botao-azul:active {
-    transform: scale(0.98);
-}
-
+.botao-azul:active { transform: scale(.98); }
 
 .sucesso {
-    width: 50%;
-    margin: auto;
     display: none;
+    width: 50%;
+    margin: 20px auto 0;
     text-align: center;
     color: #22c55e;
-    font-weight: 700;
     font-size: 20px;
-    margin-top: 20px;
+    font-weight: 700;
     padding: 20px;
-    background: rgba(34, 197, 94, 0.1);
+    background: rgba(34,197,94,.1);
     border-radius: 15px;
 }
 
-.rodapee{
+.rodapee {
     display: flex;
     align-items: center;
     justify-content: center;
