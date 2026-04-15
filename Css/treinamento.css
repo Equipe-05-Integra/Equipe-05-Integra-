@@ -34,8 +34,7 @@ main {
 .home_texto h1 {
 
     width: 120%;
-    line-height: 0.90;
-    /* altura das letras*/
+    line-height: 0.90;/* altura das letras*/
     font-family: montserrat;
     font-size: 65px;
 
@@ -65,14 +64,14 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 70px;
+    height: 50px;
     background-color: #E85D1A;
     gap: 10px;
     border-radius: 16px;
+    box-shadow: 1px 1px 10px 4px rgba(197, 197, 197, 0.3);
 }
 
 .botao:hover {
-    animation: arcoIris 2s linear infinite;
     transform: translateY(-3px);
     background-color: rgb(196, 77, 20);
 }
@@ -258,7 +257,6 @@ main {
 
 /* acessibilidade*/
 #acessibilidade {
-    /* border: 2px solid black; */
     background-color: #162B5A;
     width: 90%;
     height: 1420px;
@@ -271,7 +269,6 @@ main {
 }
 
 .acess_topo {
-    /* border: 3px solid red; */
     margin-top: 100px;
     display: flex;
     align-items: center;
@@ -283,7 +280,6 @@ main {
 
 #acess_h1 {
     color: #ffffff;
-    /* border: 2px solid blue;  */
     text-align: center;
     width: 80%;
 }
@@ -294,7 +290,6 @@ main {
 
 #acess_p {
     color: #ffffff;
-    /* border: 2px solid rgb(255, 204, 0);  */
     font-size: 22px;
     text-align: center;
     width: 79%;
@@ -302,7 +297,6 @@ main {
 }
 
 #bloc_acess {
-    /* border: 2px solid rgb(255, 6, 143);  */
     display: flex;
     width: 80%;
     justify-content: center;
@@ -312,7 +306,6 @@ main {
 
 .blocos_caixa1 {
     background-color: #fff;
-    /* border: 2px solid black; */
     width: 500px;
     height: 290px;
     padding: 20px;
@@ -361,12 +354,10 @@ main {
 }
 
 .blocos_caixa1 h2 {
-    /* border: 2px solid black; */
     font-size: 27px;
 }
 
 .bloco_caixa_p {
-    /* border: 2px solid black; */
     width: 70%;
     font-size: 20px;
     color: #342f2f;
@@ -377,7 +368,6 @@ main {
 
 /* consultoria */
 #consultoria {
-    /* border: 2px solid blue; */
     width: 90%;
     height: auto;
     margin: 100px auto;
@@ -393,7 +383,6 @@ main {
 }
 
 #caixote {
-    /* border: 2px solid black; */
     width: 90%;
     height: auto;
     display: flex;
@@ -405,7 +394,6 @@ main {
 }
 
 .caixa {
-    /* border: 2px solid red; */
     width: 85%;
     height: 400px;
     display: flex;
@@ -413,7 +401,6 @@ main {
 }
 
 .caixa-invertida {
-    /* border: 2px solid rgba(0, 17, 255, 0.361); */
     width: 85%;
     height: 400px;
     display: flex;
@@ -423,7 +410,6 @@ main {
 }
 
 .esquerda {
-    /* border: 2px solid wheat;  */
     width: 50%;
     margin-left: 40px;
 
@@ -432,7 +418,6 @@ main {
 .num_1a4 {
     background-color: #1E5FA8;
     margin-top: 40px;
-    /* border: 2px solid seagreen;  */
     width: 65px;
     height: 60px;
     justify-content: center;
@@ -444,7 +429,6 @@ main {
 
 .texto_consultoria {
     margin-left: 95px;
-    /* border: 2px solid aqua; */
     width: 400px;
     height: 265px;
     display: flex;
@@ -453,21 +437,18 @@ main {
 }
 
 .h2_consultoria {
-    /* border: 2px solid rgb(166, 166, 166); */
     width: auto;
     font-size: 22px;
     color: #1e1c1c;
 }
 
 .p_consultoria {
-    /* border: 2px solid slateblue;  */
     color: #262121;
     width: 370px;
     font-size: 25px;
 }
 
 .img_consul {
-    /* border:  2px solid darkorchid;  */
     width: 50%;
 }
 
@@ -494,7 +475,6 @@ main {
 }
 
 #parte_1 {
-    /* border: 2px solid red; */
     width: 90%;
     text-align: center;
     height: auto;
@@ -505,7 +485,6 @@ main {
 
 #head_transf {
     margin-top: 50px;
-    /* border: 2px solid yellow; */
     width: 75%;
     height: auto;
     font-size: 30px;
@@ -517,7 +496,6 @@ main {
 
 #p_transf {
     align-items: center;
-    /* border: 2px solid green; */
     height: 60%;
     height: 40px;
     display: flex;
@@ -527,18 +505,15 @@ main {
 
 #trindades {
     margin: 40px;
-    /* border:2px solid #000; */
     width: 85%;
     height: auto;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-
 }
 
 .bloco {
     background-color: #263963;
-    /* border: 1px solid rebeccapurple; */
     width: 30%;
     border-radius: 18px;
     height: 440px;
@@ -556,7 +531,6 @@ main {
 }
 
 .trin_h3 {
-    /* border: 1px solid green; */
     height: 70px;
     margin-top: 40px;
     color: #E85D1A;
@@ -567,7 +541,6 @@ main {
 }
 
 .trin {
-    /* border: 1px solid darksalmon; */
     justify-content: center;
     align-items: center;
     display: flex;
@@ -581,31 +554,26 @@ main {
     justify-content: center;
     width: 50%;
     font-size: 25px;
-    /* border: 1px solid teal; */
 }
 
 .trin_p {
-    /* border:1px solid #1b2232; */
     width: 80%;
     font-size: 21px;
 }
 
 .trin_ps {
     margin-top: 20px;
-    /* border:1px solid #1b2232; */
     width: 80%;
     font-size: 21px;
 }
 
 .trin_pd {
     margin-top: 0px;
-    /* border:1px solid #1b2232; */
     width: 80%;
     font-size: 21px;
 }
 
 #parte2 {
-    /* border: 1px solid red; */
     padding: 80px;
     color: white;
     text-align: center;
@@ -661,7 +629,6 @@ main {
 }
 
 .janela {
-    /* border:1px solid #E85D1A; */
     width: 100%;
     padding: 20px;
     overflow-x: auto;
@@ -751,7 +718,6 @@ main {
     font-size: 12px;
     color: #94a3b8;
 }
-
 /* fim do comentarios */
 
 /* questionario */
@@ -909,3 +875,534 @@ div#userwayAccessibilityIcon,
     top: auto !important;
 }
 
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* home page*/
+    #home_page {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 60px;
+    }
+
+    .home_texto {
+        width: 100%;
+        padding: 60px 40px 30px 40px;
+        gap: 28px;
+    }
+
+    .home_texto h1 {
+        width: 100%;
+        font-size: 46px;
+        line-height: 1;
+    }
+
+    .home_p {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .botoes {
+        width: 30%;
+        font-size: 15px;
+        gap: 16px;
+    }
+
+    .home_dados {
+        display: none;
+    }
+
+    .card_dados,
+    .card_trof,
+    .card_certi {
+        display: none;
+    }
+
+    /* acessibilidade */
+    #acessibilidade {
+        width: 95%;
+        height: auto;
+        padding-bottom: 60px;
+        margin: 60px auto;
+        gap: 40px;
+    }
+
+    .acess_topo {
+        margin-top: 60px;
+        font-size: 22px;
+        gap: 20px;
+    }
+
+    #acess_h1 {
+        width: 90%;
+        font-size: 26px;
+    }
+
+    #acess_p {
+        font-size: 18px;
+        width: 90%;
+        line-height: 1.4;
+    }
+
+    #bloc_acess {
+        width: 90%;
+        gap: 30px;
+    }
+
+    .blocos_caixa1 {
+        width: 100%;
+        max-width: 4440px;
+        height: auto;
+        min-height: 240px;
+        gap: 20px;
+    }
+
+    .blocos_caixa1 h2 {
+        font-size: 22px;
+    }
+
+    .bloco_caixa_p {
+        width: 90%;
+        font-size: 17px;
+        line-height: 1.4;
+    }
+
+    /*consultoria */
+    #consultoria {
+        width: 95%;
+        gap: 60px;
+        font-size: 24px;
+        margin: 60px auto;
+    }
+
+    #caixote {
+        width: 100%;
+        gap: 60px;
+    }
+    .caixa,
+    .caixa-invertida {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .esquerda {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .texto_consultoria {
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+        gap: 16px;
+    }
+
+    .h2_consultoria {
+        font-size: 20px;
+    }
+
+    .p_consultoria {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .img_consul {
+        display: none;
+    }
+
+    .num_1a4 {
+        margin-top: 20px;
+        font-size: 54px;
+        width: 55px;
+        height: 52px;
+    }
+
+    /*transfoma */
+    #transforma {
+        margin-top: 80px;
+        padding: 40px 0;
+        gap: 20px;
+    }
+
+    #head_transf {
+        width: 90%;
+        font-size: 24px;
+    }
+
+    #p_transf {
+        font-size: 16px;
+        height: auto;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    #trindades {
+        margin: 20px auto;
+        width: 90%;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .bloco {
+        width: 90%;
+        max-width: 480px;
+        height: auto;
+        padding-bottom: 30px;
+        gap: 24px;
+    }
+
+    .trin_h3 {
+        font-size: 40px;
+        height: 56px;
+        margin-top: 30px;
+    }
+
+    .trin_h4 {
+        width: 70%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .trin_p,
+    .trin_ps,
+    .trin_pd {
+        font-size: 15px;
+        width: 85%;
+        text-align: center;
+    }
+
+    /*depoimentos*/
+    #parte2 {
+        padding: 50px 20px;
+    }
+
+    .titulo {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    .item {
+        width: 320px;
+        height: auto;
+        min-height: 260px;
+        padding: 24px;
+    }
+
+    .item p {
+        font-size: 15px;
+        min-height: 60px;
+    }
+
+    .estrelas {
+        font-size: 24px;
+    }
+
+    .trilho {
+        gap: 30px;
+    }
+
+    /* forms*/
+    #questionario {
+        width: 95%;
+        margin: 60px auto;
+        gap: 35px;
+    }
+
+    .formulario {
+        width: 100%;
+    }
+
+    .titulo_quest {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .texto-apoio {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .duas-colunas {
+        grid-template-columns: 1fr;
+    }
+
+    .botao-azul {
+        width: 75%;
+        height: 62px;
+        font-size: 16px;
+    }
+
+    .sucesso {
+        width: 75%;
+        font-size: 17px;
+    }
+}
+
+/* celular */
+@media (min-width: 320px) and (max-width: 480px) {
+       /* home page*/
+    #home_page {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 60px;
+    }
+
+    .home_texto {
+        width: 100%;
+        padding: 60px 40px 30px 40px;
+        gap: 28px;
+    }
+
+    .home_texto h1 {
+        width: 100%;
+        font-size: 46px;
+        line-height: 1;
+    }
+
+    .home_p {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .botoes {
+        width: 40%;
+        font-size: 11px;
+        gap: 16px;
+    }
+
+    .home_dados {
+        display: none;
+    }
+
+    .card_dados,
+    .card_trof,
+    .card_certi {
+        display: none;
+    }
+
+    /* acessibilidade */
+    #acessibilidade {
+        width: 95%;
+        height: auto;
+        padding-bottom: 60px;
+        margin: 60px auto;
+        gap: 40px;
+    }
+
+    .acess_topo {
+        margin-top: 60px;
+        font-size: 22px;
+        gap: 20px;
+    }
+
+    #acess_h1 {
+        width: 90%;
+        font-size: 26px;
+    }
+
+    #acess_p {
+        font-size: 18px;
+        width: 90%;
+        line-height: 1.4;
+    }
+
+    #bloc_acess {
+        width: 90%;
+        gap: 30px;
+    }
+
+    .blocos_caixa1 {
+        width: 100%;
+        max-width: 4440px;
+        height: auto;
+        min-height: 240px;
+        gap: 20px;
+    }
+
+    .blocos_caixa1 h2 {
+        font-size: 22px;
+    }
+
+    .bloco_caixa_p {
+        width: 90%;
+        font-size: 17px;
+        line-height: 1.4;
+    }
+
+    /*consultoria */
+    #consultoria {
+        width: 95%;
+        gap: 60px;
+        font-size: 24px;
+        margin: 60px auto;
+    }
+
+    #caixote {
+        width: 100%;
+        gap: 60px;
+    }
+    .caixa,
+    .caixa-invertida {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .esquerda {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .texto_consultoria {
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+        gap: 16px;
+    }
+
+    .h2_consultoria {
+        font-size: 20px;
+    }
+
+    .p_consultoria {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .img_consul {
+        display: none;
+    }
+
+    .num_1a4 {
+        margin-top: 20px;
+        font-size: 54px;
+        width: 55px;
+        height: 52px;
+    }
+
+    /*transfoma */
+    #transforma {
+        margin-top: 80px;
+        padding: 40px 0;
+        gap: 20px;
+    }
+
+    #head_transf {
+        width: 90%;
+        font-size: 24px;
+    }
+
+    #p_transf {
+        font-size: 16px;
+        height: auto;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    #trindades {
+        margin: 20px auto;
+        width: 90%;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .bloco {
+        width: 30%;
+        max-width: 480px;
+        height: 200px;
+        padding-bottom: 30px;
+        gap: 24px;
+    }
+
+    .trin_h3 {
+        font-size: 30px;
+        height: 56px;
+        margin-top: 30px;
+    }
+
+    .trin_h4 {
+        width: 70%;
+        font-size:10px;
+        text-align: center;
+    }
+
+    .trin_p,
+    .trin_ps,
+    .trin_pd {
+  display: none;
+    }
+
+    /*depoimentos*/
+    #parte2 {
+        padding: 50px 20px;
+    }
+
+    .titulo {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    .item {
+        width: 320px;
+        height: auto;
+        min-height: 260px;
+        padding: 24px;
+    }
+
+    .item p {
+        font-size: 15px;
+        min-height: 60px;
+    }
+
+    .estrelas {
+        font-size: 24px;
+    }
+
+    .trilho {
+        gap: 30px;
+    }
+
+    /* forms*/
+    #questionario {
+        width: 95%;
+        margin: 60px auto;
+        gap: 35px;
+    }
+
+    .formulario {
+        width: 100%;
+    }
+
+    .titulo_quest {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .texto-apoio {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .duas-colunas {
+        grid-template-columns: 1fr;
+    }
+
+    .botao-azul {
+        width: 75%;
+        height: 62px;
+        font-size: 16px;
+    }
+
+    .sucesso {
+        width: 75%;
+        font-size: 17px;
+    }
+}
