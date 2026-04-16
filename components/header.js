@@ -1,55 +1,54 @@
 class Header extends HTMLElement{
     connectedCallback(){
     
- this.innerHTML = `
-<header>
-    <div class="header_container">
-        <div class="container_logo">
-            <img src="../img/Logo_Integra+.svg" alt="Logo_da_Integra_mais">
-        </div>
-        <nav class="links_container">
-            <a href="../index.html">Inicio</a>
-            <a href="./12_Sobre_Nos.html">Quem Somos</a>
-            <a href="./03_servicos.html">Serviços</a>
-            <a href="./04_treinamentos.html">Treinamentos</a>
-            <a href="./05_suporte.html">Suporte</a>
-            <a href="./06_noticias.html">Noticias</a>
-        </nav>
-        <div class="container_botoes">
-            <div class="icone_perfil">
-                <a href="./11_login.html">
+        this.innerHTML = `
+        <header>
+        <div class="header_container">
+            <div class="container_logo">
+                <img src="../img/Logo_Integra+.svg" alt="Logo_da_Integra_mais">
+            </div>
+            <nav class="links_container">
+                <a href="/index.html">Inicio </a>
+                <a href="./12_Sobre_Nos.html">Quem Somos </a>
+                <a href="./04_servicos.html">Serviços </a>
+                <a href="#">Treinamentos </a>
+                <a href="/pages/05_suporte.html">Suporte </a>
+                <a href""#">Noticias </a>
+            </nav>
+            <div class="container_botoes">
+                <div class="icone_perfil">
+                <a href="10_cadastro.html">
                     <img src="../img/Login.svg" alt="Botao_de_login">
                 </a>
-            </div>
-            <a href="./07_diagnostico.html">
+                </div>
                 <button class="botao_de_diagnostico">Diagnosticar</button>
-            </a>
-            <div class="botao_menu_lateral">
-                <img src="../img/Menu_sanduiche.svg" alt="botao_de_menu_lateral">
+                <div class="botao_menu_lateral">
+                    <img src="../img/Menu_sanduiche.svg" alt="botao_de_menu_lateral">
+                </div>
             </div>
+            </header>
+            
+            <aside class="container_menu_lateral">
+                <div class="header_menu_lateral">
+                    <img src="../img/Logo_Integra+.svg" alt="Logo da integra no menu lateral"> 
+                    <button class="botao_fechar"><img src="/img/icone_de_fechar.svg" alt=" Botao de fechar menu lateral "></button>
+                </div>
+                <div class="botoes_menu_lateral">
+                    <button class="botao_cadastre_se">Cadastre-se</button>
+                    <button class="botao_entrar"> Entre </button>
+                </div>
+                <nav class="menu_lateral_links">
+                    <a href="/index.html">Inicio</a>
+                    <a href="#">Quem Somos</a>
+                    <a href="#">Serviços</a>
+                    <a href="#">Treinamentos</a>
+                    <a href="#">Suporte</a>
+                    <a href="#">Diagnóstico</a>
+                </nav>
+            </aside>
+            <div class="overlay" id="overlay"></div>
         </div>
-    </div> 
-</header>
-
-<aside class="container_menu_lateral">
-    <div class="header_menu_lateral">
-        <img src="../img/Logo_Integra+.svg" alt="Logo da integra no menu lateral"> 
-        <button class="botao_fechar"><img src="../img/icone_de_fechar.svg" alt=" Botao de fechar menu lateral "></button>
-    </div>
-    <div class="botoes_menu_lateral">
-        <a href="./10_cadastro.html"><button class="botao_cadastre_se">Cadastre-se</button></a>
-        <a href="./11_login.html"><button class="botao_entrar"> Entre </button></a>
-    </div>
-    <nav class="links_container">
-        <a href="../index.html">Inicio</a> 
-        <a href="./12_Sobre_Nos.html">Quem Somos</a>
-        <a href="./03_servicos.html">Serviços</a>
-        <a href="./04_treinamentos.html">Treinamentos</a>
-        <a href="./05_suporte.html">Suporte</a>
-        <a href="./06_noticias.html">Noticias</a>
-    </nav>
-</aside>
-<div class="overlay" id="overlay"></div>`;
+            `;
 
             function configurarAnimacoes() {
                 const btnAbrir = document.querySelector('.botao_menu_lateral');
