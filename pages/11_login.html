@@ -13,7 +13,6 @@
 <body>
 
     <header-component></header-component>
-
     <main>
 
        <div class="container">
@@ -61,5 +60,26 @@
 </div>
     </main>
     <footer-componente></footer-componente>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <script>
+        (function(d){
+            var s = d.createElement("script");
+            /* IMPORTANTE: Substitua 'SEU_ID_AQUI' pelo ID real da sua conta UserWay */
+            s.setAttribute("data-account", "SEU_ID_AQUI"); 
+            s.setAttribute("src", "https://cdn.userway.org/widget.js");
+            (d.body || d.head).appendChild(s);
+        })(document);
+    </script>
 </body>
 </html>
