@@ -8,11 +8,14 @@ class Header extends HTMLElement{
                 <img src="../img/Logo_Integra+.svg" alt="Logo_da_Integra_mais">
             </div>
             <nav class="links_container">
-                <a href="#">Inicio </a>
+                <a href="/index.html">Inicio </a>
                 <a href="#">Quem Somos </a>
                 <a href="/pages/03_servicos.html">Serviços </a>
                 <a href="../pages/04_treinamentos.html">Treinamentos </a>
                 <a href="#">Suporte </a>
+                <a href="#">Serviços </a>
+                <a href="#">Treinamentos </a>
+                <a href="/05_suporte.html">Suporte </a>
                 <a href="#">Noticias </a>
             </nav>
             <div class="container_botoes">
