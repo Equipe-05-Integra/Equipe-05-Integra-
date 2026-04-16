@@ -22,7 +22,7 @@ class Header extends HTMLElement{
                 </a>
                 </div>
 
-                <a href="../07_diagnostico.html">
+                <a href="./07_diagnostico.html">
                     <button class="botao_de_diagnostico">Diagnosticar</button>
                 </a> 
 
