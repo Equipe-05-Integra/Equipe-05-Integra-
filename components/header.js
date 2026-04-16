@@ -17,7 +17,7 @@ class Header extends HTMLElement{
             </nav>
             <div class="container_botoes">
                 <div class="icone_perfil">
-                <a href="10_cadastro.html">
+                <a href="./10_cadastro.html">
                     <img src="../img/Login.svg" alt="Botao_de_login">
                 </a>
                 </div>
