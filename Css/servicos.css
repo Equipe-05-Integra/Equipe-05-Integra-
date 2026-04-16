@@ -1,0 +1,687 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    height: auto;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+#home_page {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+}
+
+#home_img {
+    height: 100%;
+    width: 100%;
+}
+
+#text_home {
+    position: absolute;
+    /* border: 1px solid seagreen; */
+    width: 40%;
+    height: 320px;
+    z-index: 1;
+    top: 150px;
+    left: 180px;
+    font-size: 27px;
+    line-height: 0.90;
+    display: flex;
+    flex-direction: column;
+    gap: 110px;
+}
+
+#destaque {
+    color: #E85D1A;
+}
+
+#botao_home {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+    background-color: #E85D1A;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 4px rgba(197, 197, 197, 0.3);
+}
+
+#botao_home:hover {
+    transform: translateY(-3px);
+    background-color: rgb(196, 77, 20);
+}
+
+#diagnostico {
+    /* border: 1px solid green; */
+    width: 75%;
+    text-align: center;
+    height: 380px;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    color: #000;
+    gap: 30px;
+}
+
+#titu_h2 {
+    /* border: 1px solid purple; */
+    height: auto;
+    width: 80%;
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+#titu_p {
+    /* border: 1px solid navy; */
+    height: auto;
+    width: 70%;
+    font-size: 20px;
+    line-height: 0.90;
+}
+
+#botao_diag {
+    /* border: 1px solid slateblue; */
+    background-color: #E85D1A;
+    color: #fff;
+    height: 50px;
+    font-size: 25px;
+    width: 29%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#botao_diag:hover {
+    transform: translateY(-3px);
+    background-color: rgb(196, 77, 20);
+}
+
+/* preços */
+#servicos {
+    /* border: 3px solid firebrick; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#home_serv {
+    /* border: 1px solid black; */
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    text-align: center;
+
+}
+
+#serv_h2 {
+    font-size: 35px;
+}
+
+#serv_p {
+    width: 70%;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#conteiner {
+    margin-top: 40px;
+    /* border: 7px solid seagreen; */
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bloc {
+    color: #000;
+    /* border: 2px solid firebrick; */
+    height: 659px;
+    width: 428px;
+    border-radius: 5%;
+    box-shadow: 15px 15px 14px rgba(167, 166, 166, 0.3);
+}
+
+.bloc:hover {
+    transform: translateY(-5px);
+    background-color: #f9f8f8;
+}
+
+.caixa_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#amarelo {
+    /* border: 1px solid black; */
+    height: 10%;
+    width: 100%;
+    background-color: #E6A817;
+    border-radius: 22px 22px 0px 0px;
+}
+
+#azul {
+    /* border: 1px solid black; */
+    height: 10%;
+    width: 100%;
+    background-color: #1A8A5A;
+    border-radius: 22px 22px 0px 0px;
+}
+
+#verde {
+    /* border: 1px solid black; */
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 25px;
+    background-color: #1E5FA8;
+    border-radius: 22px 22px 0px 0px;
+}
+
+.nome_conte {
+    margin-top: 50px;
+    /* border: 1px solid purple; */
+    width: 85%;
+    height: auto;
+    font-size: 32px;
+}
+
+.preco {
+    /* border: 1px solid darkolivegreen; */
+    margin-top: 19px;
+    width: 85%;
+    font-size: 18px;
+    height: auto;
+}
+
+.num {
+    margin-left: 2px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #252121;
+}
+
+.benficios {
+    margin-top: 35px;
+    /* border: 2px solid slateblue; */
+    width: 85%;
+    height: auto;
+    font-size: 18px;
+    line-height: 1.50;
+}
+
+#botao_conte {
+    width: 60%;
+    height: 50px;
+    margin-top: 150px;
+    color: #ffffff;
+    display: flex;
+    background-color: #E6A817;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    box-shadow: 1px 1px 14px 4px rgba(167, 166, 166, 0.3);
+}
+
+#botao_conte:hover {
+    background-color: #bf8a0e;
+}
+
+#botao_conteA {
+    width: 60%;
+    height: 50px;
+    margin-top: 110px;
+    color: #ffffff;
+    display: flex;
+    background-color: #1A8A5A;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    box-shadow: 1px 1px 14px 4px rgba(167, 166, 166, 0.3);
+}
+
+#botao_conteA:hover {
+    background-color: #0e6740;
+}
+
+#botao_conteV {
+    width: 60%;
+    height: 50px;
+    margin-top: 45px;
+    color: #ffffff;
+    display: flex;
+    background-color: #1E5FA8;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    box-shadow: 1px 1px 14px 4px rgba(167, 166, 166, 0.3);
+}
+
+#botao_conteV:hover {
+    background-color: #134278;
+}
+
+#Individual {
+    /* border: 1px solid #E6A817; */
+    width: 100%;
+    height: 590px;
+    display: flex;
+    flex-direction: row;
+}
+
+#parte1 {
+    /* border: 1px solid red; */
+    width: 60%;
+    height: 100%;
+    color: #000;
+}
+
+#titulo {
+    font-size: 55px;
+    margin-left: 280px;
+    margin-top: 90px;
+}
+
+#ind_p {
+    font-size: 24px;
+    /* border: 2px solid slateblue; */
+    margin-top: 20px;
+    width: 55%;
+    margin-left: 280px;
+}
+
+#botao_ind {
+    /* border: 1px solid seagreen; */
+    font-size: 21px;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    margin-left: 280px;
+    margin-top: 40px;
+    height: 50px;
+    width: 25%;
+    border-radius: 15px;
+    background-color: #E85D1A;
+    box-shadow: 5px 5px 14px rgba(0, 0, 0, 0.3);
+}
+
+#botao_ind:hover {
+    background-color: rgb(196, 77, 20);
+}
+
+#imd_inf {
+    /* border:2px solid #1a1de8; */
+    height: 85%;
+    width: 90%;
+    display: flex;
+    margin-top: 50px;
+}
+
+#imd_inf img {
+    height: 100%;
+    width: 100%
+}
+
+#espaco {
+    height: 40px;
+}
+
+.enabled {
+    position: fixed !important;
+    bottom: 20px !important;
+    right: 10px !important;
+    left: auto !important;
+}
+
+div#userwayAccessibilityIcon,
+.userway_buttons_wrapper,
+.u_w {
+
+    bottom: 20px !important;
+    left: 22px !important;
+    right: auto !important;
+    top: auto !important;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    main {
+        gap: 50px;
+    }
+    #text_home {
+        width: 55%;
+        top: 80px;
+        left: 60px;
+        font-size: 22px;
+        gap: 70px;
+        height: auto;
+    }
+
+    #botao_home {
+        width: 65%;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    /* Diagnóstico */
+    #diagnostico {
+        width: 90%;
+        height: auto;
+        padding: 40px 0;
+        gap: 20px;
+    }
+
+    #titu_h2 {
+        font-size: 28px;
+        width: 100%;
+    }
+
+    #titu_p {
+        font-size: 17px;
+        width: 85%;
+    }
+
+    #botao_diag {
+        font-size: 20px;
+        width: 42%;
+        height: 48px;
+    }
+
+    /* Serviços */
+    #home_serv {
+        width: 90%;
+    }
+
+    #serv_h2 {
+        font-size: 28px;
+    }
+
+    #serv_p {
+        font-size: 17px;
+        width: 85%;
+    }
+
+    #conteiner {
+        height: auto;
+        flex-direction: column;
+        gap: 30px;
+        padding: 0 20px;
+        align-items: center;
+    }
+
+    .bloc {
+        width: 90%;
+        max-width: 480px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    #amarelo,
+    #azul,
+    #verde {
+        height: 70px;
+    }
+
+    .nome_conte {
+        margin-top: 30px;
+        font-size: 26px;
+    }
+
+    #botao_conte,
+    #botao_conteA,
+    #botao_conteV {
+        margin-top: 30px;
+        width: 70%;
+    }
+
+    /* Seção Individual */
+    #Individual {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+
+    #parte1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #titulo {
+        font-size: 40px;
+        margin-left: 0;
+        margin-top: 50px;
+        width: 80%;
+    }
+
+    #ind_p {
+        font-size: 20px;
+        width: 80%;
+        margin-left: 0;
+    }
+
+    #botao_ind {
+        margin-left: 0;
+        width: 50%;
+        font-size: 18px;
+    }
+
+    #imd_inf {
+        display: none;
+    }
+}
+
+/* celular */
+@media (max-width: 600px) {
+    main {
+        gap: 40px;
+    }
+
+    #home_page {
+        min-height: 320px;
+    }
+
+    #home_img {
+        object-fit: cover;
+        min-height: 320px;
+    }
+
+    #text_home {
+        width: 85%;
+        top: 40px;
+        left: 20px;
+        font-size: 16px;
+        gap: 40px;
+        height: auto;
+    }
+
+    #botao_home {
+        width:50%;
+        height: 44px;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+
+    /* Diagnóstico */
+    #diagnostico {
+        width: 95%;
+        padding: 30px 0;
+        gap: 16px;
+        height: auto;
+    }
+
+    #titu_h2 {
+        font-size: 22px;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #titu_p {
+        font-size: 15px;
+        width: 95%;
+        line-height: 1.4;
+    }
+
+    #botao_diag {
+        font-size: 16px;
+        width: 70%;
+        height: 44px;
+    }
+
+    /* Serviços */
+    #servicos {
+        padding: 0 10px;
+    }
+
+    #home_serv {
+        width: 100%;
+    }
+
+    #serv_h2 {
+        font-size: 22px;
+    }
+
+    #serv_p {
+        font-size: 15px;
+        width: 95%;
+    }
+
+    #conteiner {
+        flex-direction: column;
+        height: auto;
+        gap: 24px;
+        padding: 0 10px;
+        margin-top: 24px;
+    }
+
+    .bloc {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding-bottom: 24px;
+        border-radius: 16px;
+    }
+
+    .bloc:hover {
+        transform: none;
+    }
+
+    #amarelo,
+    #azul,
+    #verde {
+        height: 60px;
+        font-size: 18px;
+    }
+
+    .nome_conte {
+        margin-top: 20px;
+        font-size: 22px;
+    }
+
+    .preco {
+        font-size: 15px;
+        margin-top: 12px;
+    }
+
+    .num {
+        font-size: 20px;
+    }
+
+    .benficios {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    #botao_conte,
+    #botao_conteA,
+    #botao_conteV {
+        width: 80%;
+        height: 44px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    /* Seção Individual */
+    #Individual {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+
+    #parte1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+        text-align: center;
+    }
+
+    #titulo {
+        font-size: 28px;
+        margin-left: 0;        
+        margin-top: 30px;
+        width: 85%;
+    }
+
+    #ind_p {
+        font-size: 15px;
+        width: 85%;
+        margin-left: 0;      
+        margin-top: 12px;
+    }
+
+    #botao_ind {
+        margin-left: 0;         
+        margin-top: 20px;
+        width: 70%;
+        height: 44px;
+        font-size: 15px;
+    }
+
+    #imd_inf {
+        display: none;
+    }
+}

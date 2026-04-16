@@ -27,9 +27,9 @@
                          <nav>
                              <a>Início</a>
                              <a>Quem Somos</a>
-                             <a>Serviços</a>
+                             <a href="../pages/03_servicos.html">Serviços</a>
                              <a>Suporte</a>
-                             <a>Treinamentos</a>
+                             <a href="../pages/04_treinamentos.html">Treinamentos</a>
                              <a>Diagnóstico Básico</a>
                          </nav>
                      </div>
