@@ -10,8 +10,8 @@ class Header extends HTMLElement{
             <nav class="links_container">
                 <a href="/index.html">Inicio </a>
                 <a href="./pages/12_Sobre_Nos.html">Quem Somos </a>
-                <a href="./pages/03_servicos.html">Serviços </a>
-                <a href="04_treinamentos.html">Treinamentos </a>
+                <a href="./03_servicos.html">Serviços </a>
+                <a href="./pages/04_treinamentos.html">Treinamentos </a>
                 <a href="/pages/05_suporte.html">Suporte </a>
                 <a href="noticias.html">Noticias </a>
             </nav>
@@ -22,7 +22,7 @@ class Header extends HTMLElement{
                 </a>
                 </div>
 
-                <a href="07_diagnostico.html">
+                <a href="../07_diagnostico.html">
                     <button class="botao_de_diagnostico">Diagnosticar</button>
                 </a> 
 
@@ -44,7 +44,7 @@ class Header extends HTMLElement{
                 <nav class="menu_lateral_links">
                     <a href="/index.html">Inicio</a>
                     <a href="pages/12_Sobre_Nos.html">Quem Somos</a>
-                    <a href="/03_servicos.html">Serviços</a>
+                    <a href="pages/03_servicos.html">Serviços</a>
                     <a href="pages/Treinamentos">Treinamentos</a>
                     <a href="pages/05_suporte.html">Suporte</a>
                     <a href="noticias.html">noticias</a>
