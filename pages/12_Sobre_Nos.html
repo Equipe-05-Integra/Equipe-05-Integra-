@@ -6,13 +6,22 @@
     <title>Sobre Nós</title>
     <link rel="stylesheet" href="./Css/sobre_nos.css" type="text/css" />
     <script src="./Js/sobre_nos.js"></script>
+    <link rel="stylesheet" href="../Css/sobre_nos.css" type="text/css" />
+    <script src="../Js/sobre_nos.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet" />
+     <link rel="stylesheet" href="../Css/header.css" >
+    <link rel="stylesheet" href="../Css/footer.css">
+    <script src="../components/footer.js"></script>
+    <script src="../components/header.js"></script>
+
+
 </head>
 <body>
     
+    <header-component></header-component>
     <section id="sobre">
         <div id="topo" class="reveal">
-            <img src="imagens/Group 14 (1).svg" alt="">
+            <img src="../img/Group 14 (1).svg" alt="">
             <div class="linha"></div>
                 <p>QUEM SOMOS</p>
                     <h1>Acessibilidade <br>não é um <span>detalhe.</span></h1>
@@ -46,7 +55,7 @@
     <section id="MVV">
 
     <div id="alvo" class="reveal">
-        <img src="imagens/alvo.svg" alt="">
+        <img src="../img/alvo.svg" alt="">
         <div id="alvo2">
             <h1>MISSÃO</h1>
             <p>Melhorar a acessibilidade, ajudando empresas a se tornarem mais inclusivas, seguras e alinhadas às normas legais, garantindo uma melhor experiência para todos os clientes e funcionários.</p>
@@ -54,7 +63,7 @@
     </div>
 
     <div id="olhar" class="reveal">
-        <img src="imagens/olhar.svg" alt="">
+        <img src="../img/olhar.svg" alt="">
         <div id="alvo3">
             <h1 id="visao">VISÃO</h1>
             <h2>VISAO</h2>
@@ -63,7 +72,7 @@
     </div>
 
     <div id="quebra" class="reveal">
-        <img src="imagens/quebra cabeça.svg" alt="">
+        <img src="../img/quebra cabeça.svg" alt="">
         <h1 id="valores">VALORES</h1>
         <p>
             - Acessibilidade <br>
@@ -77,8 +86,7 @@
 
 </section>
 
-<!-- IMPORTANTE: adicionar isso antes do </body> -->
-<script src="script.js"></script>
+
 
     <section id="impacto">
         <div id="trasnformam" class="reveal">
@@ -108,8 +116,8 @@
         </div>
 
         <div class="botoes reveal">
-            <a href="#" class="diagnostico">Solicitar diagnostico</a>
-            <a href="#">Conhecer a plataforma</a>
+            <a href="../pages/07_diagnostico.html" class="diagnostico">Solicitar diagnostico</a>
+            <a href="../pages/02_quemSomos.html">Conhecer a plataforma</a>
         </div>
     </section>
 
@@ -131,14 +139,14 @@
 
                    <div class="card3 reveal">
                         <!-- <p class="para01">01</p> -->
-                        <img src="imagens/lupa.svg" alt="" class="imagens">
+                        <img src="../img/lupa.svg" alt="" class="imagens">
                         <h1>Diagnóstico de Acessibilidade</h1>
                         <p class="para3">Mapeamos espaços físicos e serviços digitais com metodologia própria, identificando barreiras reais e entregando um plano de ação priorizado.</p>
                     </div>
 
                     <div class="card3 reveal">
                         <!-- <p class="para01">02</p> -->
-                        <img src="imagens/profile.svg" alt="" class="imagens">
+                        <img src="../img/profile.svg" alt="" class="imagens">
                         <h1>Experiências Imersivas</h1>
                         <p class="para3">Simulações e vivências práticas que colocam gestores e equipes no lugar de usuários com deficiência — criando empatia real, não teórica.</p>
                     </div>  
@@ -146,7 +154,7 @@
 
                     <div class="card3 reveal">
                         <!-- <p class="para01">03</p> -->
-                        <img src="imagens/escala.svg" alt="" class="imagens">
+                        <img src="../img/escala.svg" alt="" class="imagens">
                         <h1>Plataforma de Conhecimento</h1>
                         <p class="para3">Conteúdos, guias e ferramentas para que qualquer pessoa ou empresa possa entender acessibilidade de forma clara, prática e aplicável.</p>
                     </div>
@@ -156,9 +164,9 @@
 
     <section class="ods reveal"><h1>Ods que trabalhamos<br> na <span>integra</span></h1>
         <div class="container-ods">
-            <div class="ods1 reveal"> <img src="imagens/ODS9.svg" alt=""></div>
-            <div class="ods2 reveal"> <img src="imagens/ODS10.svg" alt=""></div>
-            <div class="ods3 reveal"> <img src="imagens/ODS17.svg" alt=""></div>
+            <div class="ods1 reveal"> <img src="../img/ODS9.svg" alt=""></div>
+            <div class="ods2 reveal"> <img src="../img/ODS10.svg" alt=""></div>
+            <div class="ods3 reveal"> <img src="../img/ODS17.svg" alt=""></div>
         </div>
     
     </section>
@@ -169,7 +177,7 @@
                 <h1>Nossa <span>Equipe</span></h1>
             </div>
                 <div class="nossaEquipe"> 
-                    <img src="imagens/NossaFoto.svg" alt="">
+                    <img src="../img/NossaFoto.svg" alt="">
                 </div>
     </section>
 
@@ -188,8 +196,8 @@
         </div>
 
         <div class="botao">
-              <a href="#" class="btn primary">SOLICITAR DIAGNÓSTICO</a>
-                <a href="#" class="btn secondary">CONHECER A PLATAFORMA</a>
+              <a href="../pages/07_diagnostico.html" class="btn primary">SOLICITAR DIAGNÓSTICO</a>
+                <a href="../pages/02_quemSomos.html" class="btn secondary">CONHECER A PLATAFORMA</a>
         </div> 
     </section>
 
@@ -215,6 +223,6 @@
     </script>
 
 
-    
+    <footer-componente></footer-componente>   
 </body>
 </html>
