@@ -44,7 +44,7 @@ class Header extends HTMLElement{
                 <nav class="menu_lateral_links">
                     <a href="/index.html">Inicio</a>
                     <a href="pages/12_Sobre_Nos.html">Quem Somos</a>
-                    <a href="/pages/03_servicos.html">Serviços</a>
+                    <a href="/03_servicos.html">Serviços</a>
                     <a href="pages/Treinamentos">Treinamentos</a>
                     <a href="pages/05_suporte.html">Suporte</a>
                     <a href="noticias.html">noticias</a>
