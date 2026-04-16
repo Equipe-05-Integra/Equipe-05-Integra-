@@ -386,8 +386,6 @@ div#userwayAccessibilityIcon,
     main {
         gap: 50px;
     }
-
-    /* Hero */
     #text_home {
         width: 55%;
         top: 80px;
@@ -520,7 +518,6 @@ div#userwayAccessibilityIcon,
         gap: 40px;
     }
 
-    /* Hero */
     #home_page {
         min-height: 320px;
     }
@@ -540,6 +537,7 @@ div#userwayAccessibilityIcon,
     }
 
     #botao_home {
+        width:50%;
         height: 44px;
         font-size: 15px;
         border-radius: 10px;

@@ -483,10 +483,6 @@ article {
     color: #001925;
 }
 
-/* =====================
-   MEDIA QUERIES
-   ===================== */
-
 /* Tablet (≤ 900px) */
 @media (max-width: 900px) {
     #s1 {
