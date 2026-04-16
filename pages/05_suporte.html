@@ -3,18 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suporte - Integra+</title>
     <link rel="stylesheet" href="../Css/header.css">
     <link rel="stylesheet" href="../Css/footer.css">
     <link rel="stylesheet" href="../Css/suporte.css">
-    <script src="../components/footer.js"></script>
-    <script src="../components/header.js"></script>
-    <script src="../components/suporte.js"></script>
-    <script src="../components/footer.js" ></script>
-    <script src="../components/header.js" ></script>
-    <script src="../Js/suporte.js"></script>
-    
+    <script src="../components/header.js" defer></script>
+    <script src="../Js/suporte.js" defer></script>
 </head>
 
 <body>
@@ -38,7 +33,7 @@
                 <div class="cards">
                     <div class="card red" onclick="show_img1()">
                         <span class="akar-icons--book"></span>
-                        <h3 class="geralh3">Geral</h3>
+                       <!-- <h3 class="geralh3">Geral</h3> 
                         <p class="geralp">Informações gerais sobre a Integra+ e como funciona</p>
 
                     </div>
@@ -60,11 +55,11 @@
                 </div>
                 <div><img src="../img/Group 72.png" class="img2"></div>
                 <div><img src="../img/Group 73.png" class="img3"></div>
-            </section>
+            </section> -->
 
-            <h1 class="fale">Fale com a <span>nossa equipe</span></h1>
+           <!-- <h1 class="fale">Fale com a <span>nossa equipe</span></h1>
             <p class="preencha">Preencha o formulário abaixo e entraremos em contato o mais rápido possível.</p>
-        </article>
+        </article> 
         <section id="form">
 
             <div class="form-container">
@@ -80,18 +75,16 @@
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
-    <footer-componente></footer-componente>
-</body>
-
+        </section> -->
             
-            <article>
+          <!--  <article>
                 <h1 class="perguntas">Perguntas frequentes</h1>
                 <p class="reunimos">Reunimos dúvidas comuns para ajudar você a encontrar respostas rapidamente.</p>
                 <div class="faq-root">
- <section id="s2">
-    <!-- Cards de categoria -->
+ <section id="s2"> --> 
+    
+  <!--Cards de categoria --> 
+
     <div class="faq-tabs">
  
       <div class="faq-tab active" data-panel="geral" onclick="selectTab(this)">
@@ -165,7 +158,7 @@
   </div>
 
 <h1 class="fale">Fale com a <span>nossa equipe</span></h1>
-                <p class="preencha">Preencha o formulário abaixo e entraremos em contato o mais rápido possível.</p>
+                <p class="preencha"></p>
             </article>
 
 
@@ -216,8 +209,8 @@
   </div>
     </section>
     </main>
-    <footer-componente></footer-componente>
 </body>
+
 <div vw class="enabled">
     <div vw-access-button class="active"></div>
     <div vw-plugin-wrapper>
@@ -238,5 +231,5 @@
         })(document)
     </script>
 
-
+<script src="../Js/chatbot.js"></script>
 </html>

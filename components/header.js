@@ -9,11 +9,11 @@ class Header extends HTMLElement{
             </div>
             <nav class="links_container">
                 <a href="/index.html">Inicio </a>
-                <a href="./12_Sobre_Nos.html">Quem Somos </a>
-                <a href="./04_servicos.html">Serviços </a>
-                <a href="#">Treinamentos </a>
+                <a href="./pages/12_Sobre_Nos.html">Quem Somos </a>
+                <a href="./pages/03_servicos.html">Serviços </a>
+                <a href="04_treinamentos.html">Treinamentos </a>
                 <a href="/pages/05_suporte.html">Suporte </a>
-                <a href""#">Noticias </a>
+                <a href="noticias.html">Noticias </a>
             </nav>
             <div class="container_botoes">
                 <div class="icone_perfil">
@@ -21,7 +21,11 @@ class Header extends HTMLElement{
                     <img src="../img/Login.svg" alt="Botao_de_login">
                 </a>
                 </div>
-                <button class="botao_de_diagnostico">Diagnosticar</button>
+
+                <a href="07_diagnostico.html">
+                    <button class="botao_de_diagnostico">Diagnosticar</button>
+                </a> 
+
                 <div class="botao_menu_lateral">
                     <img src="../img/Menu_sanduiche.svg" alt="botao_de_menu_lateral">
                 </div>
@@ -39,11 +43,11 @@ class Header extends HTMLElement{
                 </div>
                 <nav class="menu_lateral_links">
                     <a href="/index.html">Inicio</a>
-                    <a href="#">Quem Somos</a>
-                    <a href="#">Serviços</a>
-                    <a href="#">Treinamentos</a>
-                    <a href="#">Suporte</a>
-                    <a href="#">Diagnóstico</a>
+                    <a href="pages/12_Sobre_Nos.html">Quem Somos</a>
+                    <a href="pages/03_servicos.html">Serviços</a>
+                    <a href="pages/Treinamentos">Treinamentos</a>
+                    <a href="pages/05_suporte.html">Suporte</a>
+                    <a href="noticias.html">noticias</a>
                 </nav>
             </aside>
             <div class="overlay" id="overlay"></div>
