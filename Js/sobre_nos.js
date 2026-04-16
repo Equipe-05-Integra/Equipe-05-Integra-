@@ -5,7 +5,7 @@ function revealElements() {
     const windowHeight = window.innerHeight;
     const elementTop = el.getBoundingClientRect().top;
 
-    if (elementTop < windowHeight) {
+    if (elementTop < windowHeight ) {
       el.style.transitionDelay = index * 0.1 + "s";
       el.classList.add("active");
     }
