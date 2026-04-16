@@ -9,7 +9,7 @@ class Header extends HTMLElement{
             </div>
             <nav class="links_container">
                 <a href="/index.html">Inicio </a>
-                <a href="./pages/12_Sobre_Nos.html">Quem Somos </a>
+                <a href="./12_Sobre_Nos.html">Quem Somos </a>
                 <a href="./03_servicos.html">Serviços </a>
                 <a href="./04_treinamentos.html">Treinamentos </a>
                 <a href="/pages/05_suporte.html">Suporte </a>
