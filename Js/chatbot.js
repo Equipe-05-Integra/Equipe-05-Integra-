@@ -378,7 +378,7 @@ Pergunta do usuário:`; // Mantenha seu prompt completo aqui
         abrirChat.style.display = 'none';
         if (chatMessages.children.length === 0) {
             setTimeout(() => {
-                adicionarMensagem();
+                adicionarMensagem("Olá! Bem-vindo à **Integra+**. Como posso ajudar sua empresa hoje?");
             }, 500);
         }
     });
