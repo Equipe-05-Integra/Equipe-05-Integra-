@@ -721,7 +721,7 @@
 .conteudo-info p{
     margin-bottom: 20px;
     font-family: "Inter", sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     width: 65%;
 }
 
@@ -852,7 +852,6 @@ input, select {
         bottom: 95px;
     }
 }
-
 
 .diagnostico_gratuito {
     transition: all 0.3s ease;
@@ -1051,7 +1050,6 @@ input, select {
 }
 
 
-
 /*------------------Responsividade (Mobile)------------------------*/
 @media (max-width: 767px) and (min-width: 320px) {
    
@@ -1171,6 +1169,11 @@ input, select {
         width: 100%;
         font-size: 16px; 
     }
+
+    .campo{
+        
+    }
+
 }
 
 }
@@ -1229,7 +1232,7 @@ div#userwayAccessibilityIcon,
 .u_w {
 
     bottom: 20px !important;
-    left: 10px !important;
+    left: 30px !important;
     right: auto !important; 
     top: auto !important;
 }

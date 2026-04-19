@@ -25,12 +25,12 @@
                     <div class="footer_plataforma coluna">
                          <h4>Plataforma</h4>
                          <nav>
-                             <a>Início</a>
-                             <a>Quem Somos</a>
+                             <a href="/index.html">Início</a>
+                             <a href=""../pages/12_sobre_Nos.html>Quem Somos</a>
                              <a href="../pages/03_servicos.html">Serviços</a>
-                             <a>Suporte</a>
+                             <a href"../pages/05_suporte.html">Suporte</a>
                              <a href="../pages/04_treinamentos.html">Treinamentos</a>
-                             <a>Diagnóstico Básico</a>
+                             <a href="../07_diagnostico.html">Diagnóstico Básico</a>
                          </nav>
                      </div>
                  </div>
@@ -39,10 +39,10 @@
                     <div class="footer_recursos coluna">
                          <h4>Recursos</h4>
                          <nav>
-                             <a>Acessibilidade no Brasil</a>
-                             <a>Guia NBR 9050</a>
-                             <a>WCAG para empresas</a>
-                             <a>Diagnóstico Detalhado</a>
+                             <a href="../pages/noticias.html">Acessibilidade no Brasil</a>
+                             <a href="https://drive.prefeitura.sp.gov.br/cidade/secretarias/upload/NBR9050_20.pdf">Guia NBR 9050</a>
+                             <a href="https://guia-wcag.com/">WCAG para empresas</a>
+                             <a href="">Diagnóstico Detalhado</a>
                              <a>Avaliações</a>
                          </nav>
                      </div>
