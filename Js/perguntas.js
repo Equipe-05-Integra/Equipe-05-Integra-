@@ -462,7 +462,9 @@ function showResults() {
       <h3>Transforme este diagnóstico em ação real</h3>
       <p>O diagnóstico revela oportunidades significativas de melhoria em todas as dimensões avaliadas.</p>
       <div class="cta-btns">
-        <button class="btn-orange">📋 Receber Plano Completo</button>
+      <a href="./03_servicos.html"> 
+         <button class="btn-orange">📋 Receber Plano Completo</button>
+      </a>
         <button class="btn-outline-w">💬 Falar com especialista</button>
       </div>
     </div>
