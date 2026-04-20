@@ -34,16 +34,16 @@ class Header extends HTMLElement{
             
             <aside class="container_menu_lateral">
                 <div class="header_menu_lateral">
-                    <img src="../img/Logo_Integra+.svg" alt="Logo da integra no menu lateral"> 
+                    <img src="/img/Logo_Integra+.svg" alt="Logo da integra no menu lateral"> 
                     <button class="botao_fechar"><img src="/img/icone_de_fechar.svg" alt=" Botao de fechar menu lateral "></button>
                 </div>
                 <div class="botoes_menu_lateral">
-                    <button class="botao_cadastre_se">Cadastre-se
-                        <a href=/pages/10_cadastro.html""></a>
+                    <button class="botao_cadastre_se">
+                        <a href="/pages/10_cadastro.html"> Cadastre-se </a>
                     </button>
 
-                    <button class="botao_entrar"> Entre 
-                        <a href="">/pages/11_login.html</a>
+                    <button class="botao_entrar">  
+                        <a href="/pages/11_login.html"> Entre </a>
                     </button>
                 </div>
                 <nav class="menu_lateral_links">
