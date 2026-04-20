@@ -765,6 +765,11 @@ input, select {
     cursor: pointer;
     margin-top: 5px;
     font-family: "Montserrat", sans-serif;  
+
+    display: block;
+    text-align:center;
+    text-decoration: none 
+    box-sizing: border-box
 }
 
 
@@ -793,8 +798,8 @@ input, select {
     width: 90px;
     position: fixed;
     bottom: 20px;
-    right: 20px; /* Aumentei um pouco para não colar na borda */
-    z-index: 10000; /* Aumentado para ganhar de qualquer outro elemento */
+    right: 20px; 
+    z-index: 10000; 
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -841,13 +846,13 @@ input, select {
 /* Ajuste de Responsividade para o Bot no Mobile */
 @media (max-width: 768px) {
     .icon_chat_bot {
-        width: 70px; /* Reduz o tamanho no celular */
+        width: 70px;
         bottom: 15px;
         right: 15px;
     }
 
     .janela_chat_bot {
-        width: 90%; /* Ocupa quase a tela toda no mobile */
+        width: 90%; 
         right: 5%;
         bottom: 95px;
     }
