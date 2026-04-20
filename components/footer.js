@@ -26,9 +26,9 @@
                          <h4>Plataforma</h4>
                          <nav>
                              <a href="/index.html">Início</a>
-                             <a href="/pages/12_sobre_Nos.html">Quem Somos</a>
+                             <a href="/pages/12_Sobre_Nos.html">Quem Somos</a>
                              <a href="/pages/03_servicos.html">Serviços</a>
-                             <a href"/pages/05_suporte.html">Suporte</a>
+                             <a href="/pages/05_suporte.html">Suporte</a>
                              <a href="/pages/04_treinamentos.html">Treinamentos</a>
                              <a href="/pages/07_diagnostico.html">Diagnóstico Básico</a>
                          </nav>
