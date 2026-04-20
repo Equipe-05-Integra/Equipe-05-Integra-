@@ -5,7 +5,7 @@
           <footer>
              <div class="footer_container">
                  <div class="footer_info coluna">
-                     <img src="../img/Logo_Integra_footer.svg" alt="Logo Integra+" class="logo_footer">
+                     <img src="/img/Logo_Integra_footer.svg" alt="Logo Integra+" class="logo_footer">
                      <p class="footer_description"> 
                          A plataforma que ajuda empresas a
                          medir, planejar e executar a
@@ -26,11 +26,11 @@
                          <h4>Plataforma</h4>
                          <nav>
                              <a href="/index.html">Início</a>
-                             <a href=""../pages/12_sobre_Nos.html>Quem Somos</a>
-                             <a href="../pages/03_servicos.html">Serviços</a>
-                             <a href"../pages/05_suporte.html">Suporte</a>
-                             <a href="../pages/04_treinamentos.html">Treinamentos</a>
-                             <a href="../07_diagnostico.html">Diagnóstico Básico</a>
+                             <a href="/pages/12_sobre_Nos.html">Quem Somos</a>
+                             <a href="/pages/03_servicos.html">Serviços</a>
+                             <a href"/pages/05_suporte.html">Suporte</a>
+                             <a href="/pages/04_treinamentos.html">Treinamentos</a>
+                             <a href="/07_diagnostico.html">Diagnóstico Básico</a>
                          </nav>
                      </div>
                  </div>
@@ -39,7 +39,7 @@
                     <div class="footer_recursos coluna">
                          <h4>Recursos</h4>
                          <nav>
-                             <a href="../pages/noticias.html">Acessibilidade no Brasil</a>
+                             <a href="/pages/noticias.html">Acessibilidade no Brasil</a>
                              <a href="https://drive.prefeitura.sp.gov.br/cidade/secretarias/upload/NBR9050_20.pdf">Guia NBR 9050</a>
                              <a href="https://guia-wcag.com/">WCAG para empresas</a>
                              <a href="">Diagnóstico Detalhado</a>
