@@ -107,7 +107,7 @@ input{
 
     }
 
-    .Cadastro-container button{
+    .entre_cadastro{
         border-radius: 15px;
         width: 100%;
         background-color: #E85D1A;
@@ -124,10 +124,11 @@ input{
         justify-content: center;
         display: flex;
         margin: auto;
+        text-decoration: none
     }
 
 
-    button:hover{
+    .entre_cadastro:hover{
         background-color: #E85D1A;
         transform: translateY(-5px);
         box-shadow: 0px 10px 20px rgba(232, 93, 26, 0.4);
