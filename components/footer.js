@@ -42,7 +42,7 @@
                              <a href="/pages/noticias.html">Acessibilidade no Brasil</a>
                              <a href="https://drive.prefeitura.sp.gov.br/cidade/secretarias/upload/NBR9050_20.pdf">Guia NBR 9050</a>
                              <a href="https://guia-wcag.com/">WCAG para empresas</a>
-                             <a href="">Diagnóstico Detalhado</a>
+                             <a href="/pages/03_servicos.html#servicos">Diagnóstico Detalhado</a>
                          </nav>
                      </div>
                  </div>
