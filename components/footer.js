@@ -5,7 +5,9 @@
           <footer>
              <div class="footer_container">
                  <div class="footer_info coluna">
+                 <a href "/index/html"> 
                      <img src="/img/Logo_Integra_footer.svg" alt="Logo Integra+" class="logo_footer">
+                </a>
                      <p class="footer_description"> 
                          A plataforma que ajuda empresas a
                          medir, planejar e executar a
