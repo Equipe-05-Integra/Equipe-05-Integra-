@@ -1055,7 +1055,7 @@ input, select {
 }
 
 
-/*------------------Responsividade (Mobile)------------------------*/
+/*------------------Responsividade (Mobile)------------------------
 @media (max-width: 767px) and (min-width: 320px) {
    
     .img_home{
@@ -1181,9 +1181,9 @@ input, select {
 
 }
 
-}
+}*/
 
-/*------------------Responsividade (tablet)----------------------*/
+/*------------------Responsividade (tablet)----------------------
 @media (min-width: 768px ) and (max-width: 1024px){
 
     .img_home{
@@ -1221,9 +1221,9 @@ input, select {
         position: relative; 
         clear: both;
     }
-}
+}*/
 
-/*------------------Posicionamento das ferramentas de acessibilidade------------------------*/
+/*------------------Posicionamento das ferramentas de acessibilidade------------------------
 
 .enabled{
     position: fixed !important;
@@ -1240,4 +1240,109 @@ div#userwayAccessibilityIcon,
     left: 30px !important;
     right: auto !important; 
     top: auto !important;
+}
+
+/*------------------Responsividade (Mobile e Tablet)------------------------*/
+@media (max-width: 768px) {
+
+    /* Remove a imagem no mobile para ganhar espaço */
+    .img_home {
+        display: none;
+    }
+
+    /* Ajusta o conteúdo principal do formulário */
+    .container-diagnostico {
+        flex-direction: column;
+        padding: 20px;
+        align-items: stretch;
+    }
+
+    .conteudo-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .conteudo-info p {
+        width: 100%;
+        font-size: 18px; /* Diminuído para não quebrar layout */
+    }
+
+    /* CORREÇÃO DO FORMULÁRIO QUEBRANDO */
+    .card-formulario {
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* Faz os campos Nome e E-mail ficarem um embaixo do outro */
+    .linha-dupla {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .campo, .campo-full {
+        width: 100%;
+    }
+
+    /* Ajusta o cabeçalho do formulário */
+    .conteudo-info h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    /* Ajusta a seção 2 (Cards azul e branco) */
+    .container_conteudo_flex {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .coluna_azul, .coluna_barreiras {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .card_azul, .card_branco {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    /* Ajusta a Seção 3 (Soluções) */
+    .lista_solucoes {
+        grid-template-columns: 1fr; /* Muda de 2 colunas para 1 */
+        width: 90%;
+    }
+
+    /* Ajusta a Seção 4 (Etapas do Processo) */
+    .etapas {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .etapas::before {
+        display: none; /* Esconde a linha horizontal que liga os círculos */
+    }
+
+    /* Títulos da Hero */
+    .Titulo {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .texto_principal {
+        font-size: 18px;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+/* Ajustes finos para telas muito pequenas (iPhone SE, etc) */
+@media (max-width: 480px) {
+    .diagnostico_gratuito, .veja_como_funciona {
+        width: 100%;
+    }
+
+    .conteudo_home {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
