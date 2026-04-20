@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", function () {
     // 1. CONFIGURAÇÕES E CHAVE
     const GROQ_API_KEY = "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"; 
