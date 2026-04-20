@@ -179,3 +179,22 @@ main{
         display: none; 
     }
 }
+
+/*------------------Posicionamento das ferramentas de acessibilidade------------------------*/
+
+.enabled{
+    position: fixed !important;
+    bottom: 20px !important;
+    right: 10px !important;
+    left: auto !important;
+}
+
+div#userwayAccessibilityIcon, 
+.userway_buttons_wrapper, 
+.u_w {
+
+    bottom: 20px !important;
+    left: 30px !important;
+    right: auto !important; 
+    top: auto !important;
+}
