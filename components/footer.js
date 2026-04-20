@@ -30,7 +30,7 @@
                              <a href="/pages/03_servicos.html">Serviços</a>
                              <a href"/pages/05_suporte.html">Suporte</a>
                              <a href="/pages/04_treinamentos.html">Treinamentos</a>
-                             <a href="/07_diagnostico.html">Diagnóstico Básico</a>
+                             <a href="/pages/07_diagnostico.html">Diagnóstico Básico</a>
                          </nav>
                      </div>
                  </div>

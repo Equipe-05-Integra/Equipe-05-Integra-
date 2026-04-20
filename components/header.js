@@ -12,8 +12,8 @@ class Header extends HTMLElement{
                 <a href="/pages/12_Sobre_Nos.html">Quem Somos </a>
                 <a href="/pages/03_servicos.html">Serviços </a>
                 <a href="/pages/04_treinamentos.html">Treinamentos </a>
-                <a href="/pages/05_suporte.html">Suporte </a>
-                <a href="/pages/noticias.html">Noticias </a>
+                <a href="/pages/05_suporte.html">Suporte</a>
+                <a href="/pages/noticias.html">Noticias</a>
             </nav>
             <div class="container_botoes">
                 <div class="icone_perfil">
