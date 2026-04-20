@@ -294,7 +294,7 @@ Pergunta do usuário:`; // Mantenha seu prompt completo aqui
     <aside class="container_chatbot">
         <div class="chat_janela" id="chatJanela" style="display: none;">
             <div class="chat_header">
-                <img src="img/Ícone de chatbot amistoso e moderno.png" class="foto_atendente">
+                <img src="/img/Ícone de chatbot amistoso e moderno.png" class="foto_atendente">
                 <button class="btn_fechar" id="btnFecharChat">×</button>
             </div>
             <div class="chat_body" id="chat-messages"></div>
@@ -302,13 +302,13 @@ Pergunta do usuário:`; // Mantenha seu prompt completo aqui
                 <div class="input_container">
                     <input type="text" id="user-input" placeholder="Escreva aqui...">
                     <button class="btn_enviar" id="btnEnviarMsg">
-                        <img src="img/Vector (8).svg">
+                        <img src="/img/Vector (8).svg">
                     </button>
                 </div>
             </div>
         </div>
         <div class="chat_icone_flutuante" id="btnAbrirChat">
-            <img src="img/Chat_bot_icone.svg">
+            <img src="/img/Chat_bot_icone.svg">
         </div>
     </aside>`;
     document.body.appendChild(chatbotContainer);
