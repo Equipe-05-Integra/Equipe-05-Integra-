@@ -5,7 +5,7 @@ class Header extends HTMLElement{
         <header>
         <div class="header_container">
             <div class="container_logo">
-            <a href"/index.html"> 
+            <a href="/index.html"> 
                 <img src="/img/Logo_Integra+.svg" alt="Logo_da_Integra_mais">
             </a>
             </div>
