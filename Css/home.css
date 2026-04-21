@@ -117,7 +117,7 @@ body, html {
 
 .item_estatistisca{
     display: flex;
-    font-size: 30px; 
+    font-size: 20px; 
     flex-direction: column;
     font-family: "Montserrat", sans-serif;
     max-width: 250px;
@@ -131,7 +131,7 @@ body, html {
 
 
 .item_estatistisca h2{
-    font-size: 30px;
+    font-size: 16px;
     margin-bottom: 5px;
 }
 
@@ -207,11 +207,14 @@ body, html {
 }
 
 .card_azul {
+    /*
     min-height: 100%;
-    width: 70%;
+    */
+    width: 100%;
+    max-width:400px;
     background-color: #2F80ED;
     color: white;
-    padding: 25px;
+    padding: 30px;
     border-radius: 15px;
     font-family: "Inter", sans-serif;
     box-shadow: 0 4px 15px rgba(47, 128, 237, 0.3);
@@ -245,11 +248,14 @@ body, html {
 
 .card_branco {
     background-color: white;
-    padding: 20px;
+    padding: 25px;
     border-radius: 12px;
     border-left: 5px solid #E85D1A; 
     box-shadow: 0 10px 10px rgba(0,0,0,0.05);
     font-family: "Inter", sans-serif;
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto; 
 
     margin-top: 10px;
     flex-direction: column;
