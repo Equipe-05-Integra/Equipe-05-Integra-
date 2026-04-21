@@ -65,7 +65,7 @@ main {
     text-align: center;
     color: white;
     margin-top: 40px;
-    font-size: clamp(28px, 5vw, 60px);
+    font-size: 2.5rem;
     font-weight: bold;
     font-family: Montserrat;
     line-height: 1.2;
@@ -78,7 +78,7 @@ main {
 
 .encontre {
     color: #B8B8B8;
-    font-size: clamp(16px, 2.2vw, 30px);
+    font-size: 1.5rem;
     width: min(90%, 600px);
     margin: 20px auto 0;
     text-align: center;
@@ -135,7 +135,7 @@ article {
 .perguntas {
     color: #1C2333;
     margin-top: 80px;
-    font-size: clamp(26px, 5vw, 60px);
+    font-size: 2.5rem;
     font-family: Montserrat;
     font-weight: bold;
     text-align: center;
@@ -144,7 +144,7 @@ article {
 
 .reunimos {
     color: #1C2333;
-    font-size: clamp(15px, 2vw, 30px);
+    font-size: 1.5rem;
     width: min(90%, 700px);
     text-align: center;
     margin-top: 20px;
@@ -263,7 +263,7 @@ article {
 }
  
 .faq-tab-desc {
-  font-size: 18px;
+  font-size: 20px;
   color: rgba(255, 255, 255, 0.82);
   line-height: 1.4;
 }
