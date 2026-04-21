@@ -312,15 +312,12 @@ header{
         }
 }   
 
-
-
-
 /*-------------  VERSÃO MOBILE -----------------*/
 
  @media(max-width: 500px) {
 
       header {
-            width: 100%; 
+            width: 100%;
             padding-left: 0;
             margin-left: 0;
             display: block;
