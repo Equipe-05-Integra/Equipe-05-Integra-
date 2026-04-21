@@ -125,14 +125,13 @@ body, html {
 }
 
 
-.item_estatistisca:first-child{
+.item_estatistica:first-child{
     padding-left: 0;
 }
 
 .item_estatistica h2{
     font-size: 1.5rem;
     font-weight: 800;
-    font-size: 16px;
     margin-bottom: 5px;
 }
 
