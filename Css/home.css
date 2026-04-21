@@ -81,7 +81,7 @@ body, html {
 
 .diagnostico_gratuito{
     width: 50%;
-    height: 70px;
+    height: 80px;
     border-radius: 20px;
     border: none;
     background-color: #E85D1A ;
@@ -96,7 +96,7 @@ body, html {
 
 .veja_como_funciona{
     width: 50%;
-    height: 70px;
+    height: 80px;
     border-radius: 20px;
     border-color: black;
     font-family: "Montserrat", sans-serif;
@@ -117,6 +117,7 @@ body, html {
 
 .item_estatistisca{
     display: flex;
+    font-size: 16px; 
     flex-direction: column;
     font-family: "Montserrat", sans-serif;
     max-width: 250px;
