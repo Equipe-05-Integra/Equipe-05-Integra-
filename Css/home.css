@@ -131,10 +131,10 @@ body, html {
 }
 
 .item_estatistica h2{
-    font-size: 1.5rem;
-    font-weight: 800;
-    margin-bottom: 5px;
-    font-family: "Monteserrat", sans-serif;
+    font-size: 1.5rem !important;
+    font-weight: 800 !important;
+    margin-bottom: 5px !important;
+    font-family: "Montserrat", sans-serif !important;
 }
 
 .barra_vertical{
