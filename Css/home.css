@@ -1061,6 +1061,26 @@ input, select {
     .img_home{
         display: none;
     }
+
+    .linha-dupla{
+        display:flex;
+        flex-direction:column;
+        gap: 0;
+        width: 100%;
+    }
+
+    .campo{
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+
+    .card-formulario{
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+        margin: 0;
+        box-sizing: border-box;
+    }
     
     .container-diagnostico, .container_da_secao{
         display: flex;
@@ -1242,104 +1262,3 @@ div#userwayAccessibilityIcon,
     top: auto !important;
 }
 
-/*------------------Responsividade (Mobile e Tablet)------------------------
-
-@media (max-width: 768px) {
-
-    .img_home {
-        display: none;
-    }
-
-   
-    .container-diagnostico {
-        flex-direction: left;
-        padding: 20px;
-        align-items: stretch;
-    }
-
-    .conteudo-info {
-        width: 100%;
-        text-align: center;
-    }
-
-    .conteudo-info p {
-        width: 100%;
-        font-size: 18px; 
-    }
-
-
-    .card-formulario {
-        width: 100%;
-        padding: 20px;
-    }
-
-    .linha-dupla {
-        flex-direction: column;
-        gap: 0;
-    }
-
-    .campo, .campo-full {
-        width: 100%;
-    }
-
-    .conteudo-info h2 {
-        font-size: 22px;
-        text-align: center;
-    }
-
-
-    .container_conteudo_flex {
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
-    }
-
-    .coluna_azul, .coluna_barreiras {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    .card_azul, .card_branco {
-        width: 100% !important;
-        margin-left: 0 !important;
-    }
-
- 
-    .lista_solucoes {
-        grid-template-columns: 1fr; 
-        width: 90%;
-    }
-
-
-    .etapas {
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .etapas::before {
-        display: none; 
-    }
-
- 
-    .Titulo {
-        font-size: 28px;
-        text-align: center;
-    }
-
-    .texto_principal {
-        font-size: 18px;
-        text-align: center;
-        width: 100%;
-    }
-}
-
-@media (max-width: 480px) {
-    .diagnostico_gratuito, .veja_como_funciona {
-        width: 100%;
-    }
-
-    .conteudo_home {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
