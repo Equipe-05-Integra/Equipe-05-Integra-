@@ -809,7 +809,6 @@ input, select {
     filter: drop-shadow(0 5px 15px rgba(0,0,0,0.2));
 }
 
-/* Efeito de hover para o usuário saber que é clicável */
 
 .icon_chat_bot:hover img {
     transform: scale(1.15);
@@ -818,7 +817,7 @@ input, select {
 
 .janela_chat_bot {
     position: fixed;
-    bottom: 110px; /* Fica acima do ícone */
+    bottom: 110px; 
     right: 20px;
     width: 350px;
     height: 500px;
@@ -826,13 +825,13 @@ input, select {
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
     z-index: 10001;
-    display: none; /* Começa escondido */
+    display: none; 
     flex-direction: column;
     overflow: hidden;
     border: 1px solid #E0E0E0;
 }
 
-/* Classe para mostrar o chat via JavaScript */
+
 .janela_chat_bot.ativo {
     display: flex;
     animation: surgimento 0.4s ease-out;
@@ -843,7 +842,6 @@ input, select {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* Ajuste de Responsividade para o Bot no Mobile */
 @media (max-width: 768px) {
     .icon_chat_bot {
         width: 70px;
@@ -906,7 +904,7 @@ input, select {
 
 .barreira-item {
     opacity: 0;
-    transform: translateX(50px); /* Começa fora da tela pela direita */
+    transform: translateX(50px); 
     transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
@@ -917,11 +915,10 @@ input, select {
 
 .container-estatistica:hover .card-branco-alvo {
     transform: scale(1.02);
-    border-left: 5px solid #2575fc; /* Cor de destaque */
+    border-left: 5px solid #2575fc; 
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
-/* Estado inicial dos cards de barreiras (à direita) */
 .barreira-card {
     opacity: 0;
     transform: translateX(30px);
@@ -933,7 +930,6 @@ input, select {
     transform: translateX(0);
 }
 
-/* Efeito de pulso nos ícones de alerta */
 .icon-alerta {
     animation: pulse-slow 2s infinite;
 }
@@ -956,21 +952,20 @@ input, select {
 .diagnostico_gratuito:hover, 
 .btn-enviar:hover {
     transform: translateY(-4px);
-    /* Brilho Laranja para o Hero / Brilho Verde para o Form */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Brilho específico Laranja (Botão Hero) */
+
 .diagnostico_gratuito:hover {
     filter: drop-shadow(0 0 8px rgba(255, 92, 0, 0.5));
 }
 
-/* Brilho específico Verde (Botão Diagnóstico) */
+
 .btn-enviar:hover {
     filter: drop-shadow(0 0 8px rgba(34, 139, 34, 0.5));
 }
 
-/* Ícone do Chatbot */
+
 .icon_chat_bot {
     transition: all 0.3s ease;
     cursor: pointer;
@@ -981,7 +976,7 @@ input, select {
     filter: drop-shadow(0 0 12px rgba(255, 92, 0, 0.7));
 }
 
-/* Cards de Soluções e Processos (Subida suave ao passar o mouse) */
+
 .cards_sessao1, .cards_sessao2, .cards_sessao4, .passo {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -1005,12 +1000,12 @@ input, select {
     transition: transform 0.2s ease;
 }
 
-/* Efeito de leve destaque na linha toda */
+
 .lista-beneficios li:hover {
     transform: translateX(5px);
 }
 
-/* Estilização do card do ícone */
+
 .card-icone {
     width: 45px;
     height: 45px;
@@ -1032,7 +1027,7 @@ input, select {
 /* --- Efeitos Individuais ao passar o mouse --- */
 
 .lista-beneficios li:hover .card-icone {
-    background-color: #228B22; /* Verde do seu tema */
+    background-color: #228B22; /
     transform: rotate(10deg) scale(1.1);
 }
 
@@ -1042,7 +1037,7 @@ input, select {
     transform: scale(1.2);
 }
 
-/* Animação específica para o ícone de velocidade (Relógio) */
+
 .lista-beneficios li:nth-child(3):hover .card-icone img {
     animation: rotate-speed 0.8s ease-in-out infinite;
 }
@@ -1227,10 +1222,10 @@ input, select {
 
 }
 */
-/*------------------Responsividade (Geral: Tablets e Celulares)------------------------*/
+/*------------------Responsividade (Celulare)------------------------*/
 @media (max-width: 768px) {
 
-    /* Padronização de Textos que você pediu */
+
     h1, .Titulo {
         font-size: 1.5rem !important; /* 24px */
         font-weight: 800; 
@@ -1252,12 +1247,11 @@ input, select {
         font-size: 0.874rem;
     }
 
-    /* Esconde a imagem para sobrar espaço para o texto */
     .img_home {
         display: none !important;
     }
 
-    /* FORÇA O FORMULÁRIO A NÃO QUEBRAR */
+  
     .container-diagnostico, .container_da_secao {
         display: flex;
         flex-direction: column;
@@ -1268,7 +1262,7 @@ input, select {
 
     .linha-dupla {
         display: flex;
-        flex-direction: column; /* Um embaixo do outro */
+        flex-direction: column; 
         width: 100%;
         gap: 0;
     }
@@ -1278,7 +1272,7 @@ input, select {
         max-width: 100%;
         padding: 15px;
         margin: 0;
-        box-sizing: border-box; /* Impede que o padding 'estoure' a largura */
+        box-sizing: border-box;
     }
 
     .campo {
@@ -1286,14 +1280,13 @@ input, select {
         margin-bottom: 15px;
     }
 
-    /* Ajuste de Cards da seção de barreiras */
     .card_azul, .card_branco {
         width: 100% !important;
         margin-left: 0 !important;
         flex: none;
     }
 
-    /* Ajuste do Carrossel */
+
     .logos_slide img {
         height: 30px; 
         margin: 0 15px; 
@@ -1308,10 +1301,12 @@ input, select {
 /*------------------Ajuste Específico para Celulares (iPhone/Android)------------------------*/
 @media (max-width: 480px) {
     .conteudo_home {
-        text-align: center; /* Centraliza no seu celular real como conversamos */
+        text-align: center; 
         align-items: center;
         padding-left: 20px;
         padding-right: 20px;
+        margin-left: 0 !important;
+        box-sizing: border-box;
     }
 
     .diagnostico_gratuito, .veja_como_funciona {
@@ -1360,7 +1355,7 @@ input, select {
     }
 }*/
 
-/*------------------Posicionamento das ferramentas de acessibilidade------------------------*/
+/*------------------------ferramentas de acessibilidade------------------------*/
 
 .enabled{
     position: fixed !important;
