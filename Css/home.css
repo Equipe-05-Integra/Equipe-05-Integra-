@@ -80,8 +80,8 @@ body, html {
 }
 
 .diagnostico_gratuito{
-    width: 50%;
-    height: 80px;
+    width: 55%;
+    height: 65px;
     border-radius: 20px;
     border: none;
     background-color: #E85D1A ;
@@ -95,8 +95,8 @@ body, html {
 }
 
 .veja_como_funciona{
-    width: 50%;
-    height: 80px;
+    width: 65%;
+    height: 65px;
     border-radius: 20px;
     border-color: black;
     font-family: "Montserrat", sans-serif;
@@ -117,7 +117,7 @@ body, html {
 
 .item_estatistisca{
     display: flex;
-    font-size: 16px; 
+    font-size: 20px; 
     flex-direction: column;
     font-family: "Montserrat", sans-serif;
     max-width: 250px;
@@ -125,26 +125,13 @@ body, html {
     padding-right: 20px;
 }
 
-/*
-.item_estatistisca:not(:last-child)::after{
-    content: "";
-    border-right: 2px solid #5E5E5E;
-    position: absolute;
-    right: 2;
-    transform: translateY(-50%);
-    width: 4px;
-    height: 2%;
-    opacity: 0.2;
-}
-
-*/
 .item_estatistisca:first-child{
     padding-left: 0;
 }
 
 
 .item_estatistisca h2{
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 5px;
 }
 
