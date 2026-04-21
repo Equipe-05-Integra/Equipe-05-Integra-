@@ -320,39 +320,48 @@ header{
  @media(max-width: 500px) {
 
       header {
+            width: 100%; 
             padding-left: 0;
-            justify-content: space-between;
             margin-left: 0;
+            display: block;
         }
 
         .header_container{
-            max-width: none;
-            width: 100% 
+            max-width: none !important;
+            display: flex !important;
+            width: 100%  !important;
+            justify-content: space-between !important;
+            padding: 10px 15px !important;
         }
 
-        .icone_perfil img, . .botao_menu_lateral img{
-            width: 30px;
-            height: auto; 
+        .icone_perfil img, .botao_menu_lateral img{
+            width: 30px !important;
+            height: auto !important;
         }
 
         .links_container{
-            display: none;
+            display: none !important;
         }
 
         .container_logo{
-            margin-left: 0;
-            padding: 5px;
+            margin-left: 0 !important;
+            padding: 0 !important;
+        }
 
+        .container_logo img{
+            max-width: 130px !important;
+            height: auto;
         }
 
         .container_botoes{
-            display: flex;
-            gap: 15px;
-            padding-right: 40px;
+            display: flex !important;
+            gap: 15px !important;
+            padding-right: 0 !important;
+            margin-right: 0 !important;
         }
 
         .botao_de_diagnostico{
-            display: none;
+            display: none !important;
         }
 
         .botao_menu_lateral{
