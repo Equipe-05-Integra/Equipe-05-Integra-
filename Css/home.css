@@ -1245,14 +1245,13 @@ div#userwayAccessibilityIcon,
 /*------------------Responsividade (Mobile e Tablet)------------------------*/
 @media (max-width: 768px) {
 
-    /* Remove a imagem no mobile para ganhar espaço */
     .img_home {
         display: none;
     }
 
     /* Ajusta o conteúdo principal do formulário */
     .container-diagnostico {
-        flex-direction: column;
+        flex-direction: left;
         padding: 20px;
         align-items: stretch;
     }
@@ -1264,7 +1263,7 @@ div#userwayAccessibilityIcon,
 
     .conteudo-info p {
         width: 100%;
-        font-size: 18px; /* Diminuído para não quebrar layout */
+        font-size: 18px; 
     }
 
     /* CORREÇÃO DO FORMULÁRIO QUEBRANDO */
@@ -1273,7 +1272,6 @@ div#userwayAccessibilityIcon,
         padding: 20px;
     }
 
-    /* Faz os campos Nome e E-mail ficarem um embaixo do outro */
     .linha-dupla {
         flex-direction: column;
         gap: 0;
@@ -1283,7 +1281,6 @@ div#userwayAccessibilityIcon,
         width: 100%;
     }
 
-    /* Ajusta o cabeçalho do formulário */
     .conteudo-info h2 {
         font-size: 22px;
         text-align: center;
