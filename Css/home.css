@@ -116,7 +116,7 @@ body, html {
 
 .item_estatistica{
     display: flex;
-    font-size: 25px; 
+    font-size: 20px; 
     flex-direction: column;
     font-family: "Montserrat", sans-serif;
     max-width: 250px;
@@ -124,10 +124,6 @@ body, html {
     padding-right: 20px;
 }
 
-.item_estatistica p{
-    font-size: 1rem;
-    color: #5E5E5E;
-}
 
 .item_estatistisca:first-child{
     padding-left: 0;
