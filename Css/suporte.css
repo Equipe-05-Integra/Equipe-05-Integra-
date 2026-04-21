@@ -337,7 +337,7 @@ article {
  
 
 .faq-answer {
-  font-size: 20px;
+  font-size: 24px;
   color: #4a6070;
   line-height: 1.75;
   padding-left: 18px;
@@ -408,7 +408,7 @@ form{
   display: inline-block;
   background-color: rgba(243, 115, 53, 0.1);
   color: #f37335;
-  font-size: 0.75rem;
+  font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -456,7 +456,7 @@ form{
 }
 
 label {
-  font-size: 0.825rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #1a1a2e;
 }
@@ -503,7 +503,7 @@ textarea {
 
 .btn-submit {
   font-family: inherit;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 700;
   color: #ffffff;
   background: linear-gradient(135deg, #f37335, #e85d20);
