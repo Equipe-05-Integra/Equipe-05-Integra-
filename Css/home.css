@@ -117,7 +117,7 @@ body, html {
 
 .item_estatistisca{
     display: flex;
-    font-size: 20px; 
+    font-size: 30px; 
     flex-direction: column;
     font-family: "Montserrat", sans-serif;
     max-width: 250px;
