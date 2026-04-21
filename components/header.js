@@ -55,7 +55,7 @@ class Header extends HTMLElement{
                     <a href="/pages/04_treinamentos.html">Treinamentos</a>
                     <a href="/pages/05_suporte.html">Suporte</a>
                     <a href="/pages/noticias.html">noticias</a>
-                    <a href="/pages/07_diagnotico.html">Diagnosticar</a>
+                    <a href="/pages/07_diagnostico.html">Diagnosticar</a>
                 </nav>
             </aside>
             <div class="overlay" id="overlay"></div>
