@@ -1055,9 +1055,28 @@ input, select {
 }
 
 
-/*------------------Responsividade (Mobile)------------------------*/
-@media (max-width: 767px) and (min-width: 320px) {
+/*------------------Responsividade (Mobile)------------------------
+@media (max-width: 768px) and (min-width: 320px) {
    
+    h1, .Titulo{
+        font-size: 1.5rem !important;
+        font-weight: 800; 
+        line-height: 1.2;
+    }
+
+    h2, .subtitulo{
+        font-size: 1.25rem !important;
+        font-weight: 700;
+    }
+    p, .texto_principal{
+        font-size: 1rem !important;
+        line-height: 1.6; 
+    }
+
+    label {
+        font-size: 0.874rem;
+    }
+
     .img_home{
         display: none;
     }
@@ -1206,7 +1225,100 @@ input, select {
 
 }
 
-}*/
+}
+*/
+/*------------------Responsividade (Geral: Tablets e Celulares)------------------------*/
+@media (max-width: 768px) {
+
+    /* Padronização de Textos que você pediu */
+    h1, .Titulo {
+        font-size: 1.5rem !important; /* 24px */
+        font-weight: 800; 
+        line-height: 1.2;
+    }
+
+    h2, .subtitulo {
+        font-size: 1.25rem !important; /* 20px */
+        font-weight: 700;
+    }
+
+    p, .texto_principal {
+        font-size: 1rem !important; /* 16px */
+        line-height: 1.6; 
+        width: 100% !important;
+    }
+
+    label {
+        font-size: 0.874rem;
+    }
+
+    /* Esconde a imagem para sobrar espaço para o texto */
+    .img_home {
+        display: none !important;
+    }
+
+    /* FORÇA O FORMULÁRIO A NÃO QUEBRAR */
+    .container-diagnostico, .container_da_secao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .linha-dupla {
+        display: flex;
+        flex-direction: column; /* Um embaixo do outro */
+        width: 100%;
+        gap: 0;
+    }
+
+    .card-formulario, .formulario_container {
+        width: 100% !important;
+        max-width: 100%;
+        padding: 15px;
+        margin: 0;
+        box-sizing: border-box; /* Impede que o padding 'estoure' a largura */
+    }
+
+    .campo {
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+
+    /* Ajuste de Cards da seção de barreiras */
+    .card_azul, .card_branco {
+        width: 100% !important;
+        margin-left: 0 !important;
+        flex: none;
+    }
+
+    /* Ajuste do Carrossel */
+    .logos_slide img {
+        height: 30px; 
+        margin: 0 15px; 
+    }
+
+    .carrosel h2 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+
+/*------------------Ajuste Específico para Celulares (iPhone/Android)------------------------*/
+@media (max-width: 480px) {
+    .conteudo_home {
+        text-align: center; /* Centraliza no seu celular real como conversamos */
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .diagnostico_gratuito, .veja_como_funciona {
+        width: 100%;
+        max-width: 100%;
+    }
+}
 
 /*------------------Responsividade (tablet)----------------------*/
 @media (min-width: 768px ) and (max-width: 1024px){
