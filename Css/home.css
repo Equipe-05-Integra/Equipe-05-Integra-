@@ -81,7 +81,7 @@ body, html {
 
 .diagnostico_gratuito{
     width: 50%;
-    height: 50px;
+    height: 70px;
     border-radius: 20px;
     border: none;
     background-color: #E85D1A ;
@@ -90,20 +90,20 @@ body, html {
     color: white;
     cursor: pointer;
     margin-top: 30px;
-    font-size: 15px;
+    font-size: 20px;
   
 }
 
 .veja_como_funciona{
     width: 50%;
-    height: 50px;
+    height: 70px;
     border-radius: 20px;
     border-color: black;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     margin-top: 20px ;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 
