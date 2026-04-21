@@ -8,9 +8,6 @@
     box-sizing: border-box;
 }
 
-/*Parte adicional do código, tive que adicionar como forma de tornar a header 
-responsiva de verdade*/
-
 .header_container{
     max-width: 1200px;
     margin: 0 auto;

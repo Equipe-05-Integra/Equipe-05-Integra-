@@ -90,12 +90,11 @@ body, html {
     color: white;
     cursor: pointer;
     margin-top: 30px;
-    font-size: 20px;
-  
+    font-size: 20px; 
 }
 
 .veja_como_funciona{
-    width: 65%;
+    width: 55%;
     height: 65px;
     border-radius: 20px;
     border-color: black;
@@ -115,9 +114,9 @@ body, html {
     margin-top: 70px;
 }
 
-.item_estatistisca{
+.item_estatistica{
     display: flex;
-    font-size: 20px; 
+    font-size: 25px; 
     flex-direction: column;
     font-family: "Montserrat", sans-serif;
     max-width: 250px;
@@ -125,12 +124,18 @@ body, html {
     padding-right: 20px;
 }
 
+.item_estatistica p{
+    font-size: 1rem;
+    color: #5E5E5E;
+}
+
 .item_estatistisca:first-child{
     padding-left: 0;
 }
 
-
 .item_estatistisca h2{
+    font-size: 1.25rem;
+    font-weight: 700;
     font-size: 16px;
     margin-bottom: 5px;
 }
