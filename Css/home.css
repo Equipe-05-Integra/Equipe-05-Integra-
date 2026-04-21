@@ -5,6 +5,12 @@
     margin: 0px;
 }
 
+body, html {
+    overflow-x: hidden;
+    position:relative;
+    width: 100%;
+}
+
 .Pagina_principal{
     position: relative;
     width: 100%;
@@ -113,7 +119,7 @@
     display: flex;
     flex-direction: column;
     font-family: "Montserrat", sans-serif;
-    max-width: 250x;
+    max-width: 250px;
     text-align: left;
     padding-right: 20px;
 }
@@ -176,6 +182,7 @@
     width: 100%;
     max-width: 1200px;        
     margin: 40px auto;
+    overflow: hidden
 }
 
 .titulo_2{
@@ -451,6 +458,7 @@
     text-align: center;
     color: white;
     font-family: "Montserrat", sans-serif;
+    overflow: hidden;
 }
 
 .area_de_processo h2{
@@ -1227,20 +1235,26 @@ input, select {
 
 
     h1, .Titulo {
-        font-size: 2rem !important; /* 24px */
+        font-size: 1.5rem !important; /* 24px */
         font-weight: 800; 
         line-height: 1.2;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 
     h2, .subtitulo {
         font-size: 1.25rem !important; /* 20px */
         font-weight: 700;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 
     p, .texto_principal {
         font-size: 1rem !important; /* 16px */
         line-height: 1.6; 
         width: 100% !important;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 
     label {
