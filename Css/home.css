@@ -35,7 +35,7 @@ body, html {
     z-index: 2;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;  
     padding: 80px 5%;
     color: #2E2D2D;
     gap: 5%;
@@ -58,15 +58,21 @@ body, html {
 }
 
 .img_home{
-    width: 40%;
+  1 width: 40%;
     position: relative;
     flex-shrink: 0;
-    justify-content: space-between;
-    margin-top: -55px;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 0;
+    max-height: 550px;
+    overflow: hidden;
+    border-radius: 20px;
 }
 .img_home img{  
-    width: 100%;
-    height: auto;
+     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
     border-radius: 20px;
     cursor: pointer;
 }
