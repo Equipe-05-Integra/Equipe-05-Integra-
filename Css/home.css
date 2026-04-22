@@ -1317,6 +1317,12 @@ input, select {
         font-size: 1.2rem;
         text-align: center;
     }
+
+    .dados_principais{
+        flex-direction: column;
+        align-items: center;
+        gap:20px;
+    }
 }
 
 /*------------------Ajuste Específico para Celulares (iPhone/Android)------------------------*/
