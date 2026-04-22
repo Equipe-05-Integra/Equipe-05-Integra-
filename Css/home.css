@@ -35,12 +35,13 @@ body, html {
     z-index: 2;
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;  
+    align-items: flex-start;
     padding: 80px 5%;
+    padding-left: 80px;
+    padding-right: 60px;   /* ← adicione isso */
     color: #2E2D2D;
     gap: 5%;
     width: 100%;
-    padding-left: 80px;
 }
 
 .Titulo{
@@ -74,7 +75,6 @@ body, html {
     object-fit: cover;
     object-position: center top;
     border-radius: 20px;
-    cursor: pointer;
 }
 
 .icon_chat_bot{
