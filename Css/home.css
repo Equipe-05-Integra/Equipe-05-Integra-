@@ -989,9 +989,6 @@ input, select {
     100% { transform: scale(1); }
 }
 
-/* --- Efeito de Elevação e Brilho para Ícones e Botões --- */
-
-/* Botão Laranja (Hero) e Botão Verde (Formulário) */
 .diagnostico_gratuito, 
 .btn-enviar {
     transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -1097,6 +1094,134 @@ input, select {
     75% { transform: rotate(15deg) scale(1.2); }
     100% { transform: rotate(0deg) scale(1.2); }
 }
+
+/* -------- Seção Diagnóstico -------- */
+
+.sessao-diagnostico {
+    background-color: #F7F5F0;
+    padding: 80px 5%;
+}
+
+.container-diagnostico {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Lado esquerdo */
+.conteudo-info h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 2rem;        /* aumentado */
+    line-height: 1.3;
+    margin-bottom: 20px;
+    color: #1C2333;
+    border: 3px solid #2F80ED;  /* borda azul como na imagem */
+    padding: 15px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.conteudo-info p {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 30px;
+    width: 100%;            /* corrige o overflow que estava com 65% */
+}
+
+.lista-beneficios span {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;      /* aumentado */
+    color: #1a2b3c;
+}
+
+.card-icone {
+    background-color: #1A8A5A;  /* verde como na imagem */
+    width: 45px;
+    height: 45px;
+    min-width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    margin-right: 15px;
+}
+
+.card-icone img {
+    width: 22px;
+    height: 22px;
+    filter: brightness(0) invert(1); /* deixa o ícone branco */
+}
+
+/* Lado direito - formulário */
+.card-formulario {
+    background: white;
+    padding: 45px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 520px;
+    box-shadow: 0px 10px 40px rgba(0,0,0,0.1);
+    font-family: "Montserrat", sans-serif;
+    flex-shrink: 0;
+}
+
+.card-formulario h3 {
+    font-size: 1.8rem;      /* aumentado */
+    font-weight: 800;
+    margin-bottom: 8px;
+    color: #1C2333;
+}
+
+.subtitulo {
+    font-family: "Inter", sans-serif;
+    font-size: 0.95rem;
+    color: #888;
+    margin-bottom: 25px;
+}
+
+label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #555;
+    margin-bottom: 6px;
+}
+
+input, select {
+    padding: 14px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    font-size: 0.95rem;
+    width: 100%;
+}
+
+.btn-enviar {
+    background-color: #1A8A5A;
+    color: white;
+    padding: 16px;
+    border: none;
+    border-radius: 50px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
 
 /*------------------Responsividade (Celular)------------------------*/
 
