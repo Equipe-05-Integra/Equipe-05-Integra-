@@ -1187,7 +1187,7 @@ label {
     font-size: 0.75rem;
     font-weight: 700;
     letter-spacing: 0.05em;
-    color: #555;
+    color: #1A1A1A;
     margin-bottom: 6px;
 }
 
@@ -1356,7 +1356,7 @@ input, select {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 20px;
+        gap: 10px;
     }
 
     .card_azul, .card_branco {
