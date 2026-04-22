@@ -227,28 +227,30 @@ body, html {
 }
 
 .card_azul {
-    /*
-    min-height: 100%;
-    */
     width: 100%;
-    max-width:400px;
+    max-width: 400px;
     background-color: #2F80ED;
     color: white;
     padding: 30px;
     border-radius: 15px;
     font-family: "Inter", sans-serif;
+    font-size: 1.1rem;        /* aumentado */
+    line-height: 1.6;
+    font-weight: 500;
     box-shadow: 0 4px 15px rgba(47, 128, 237, 0.3);
     height: auto;
-    margin-left: 10%;
+    margin-left: 0 !important;
+    box-sizing: border-box;
     flex-direction: column;
-    justify-content: space-between; 
+    justify-content: center;
     display: flex;
-
+    margin-top: 10px;
 }
 
 .card_azul h3 {
-    font-size: 40px;
-    margin-bottom: 10px;
+    font-size: 3rem;         
+    font-weight: 800;
+    margin-bottom: 12px;
     font-family: "Montserrat", sans-serif;
     display: flex;
 }
@@ -284,6 +286,14 @@ body, html {
     margin-bottom: 20px;
 } 
 
+.card_branco strong,
+.card_branco b,
+.card_branco h3,
+.card_branco h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
 .card_branco:nth-child(2){
     border-left: 5px solid #E6A817;
 }
@@ -312,8 +322,8 @@ body, html {
 }
 
 .card_branco li{
-    margin-left: 30px;
-    margin-top: 5px;
+    font-size: 0.95rem;
+    line-height: 1.6;
 }
 
 .card_azul h3{
