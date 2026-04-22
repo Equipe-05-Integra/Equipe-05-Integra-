@@ -350,7 +350,7 @@ body, html {
 
 .sessao_3 h2{
     margin-left: 15%;       
-    text-align: center;
+    text-align: left;
     margin-bottom: 40px;
 }
 
@@ -1225,7 +1225,7 @@ input, select {
         align-items: center;
     }
 
-    /* CORRIGIDO: estava com width: 40%, ficava colado na esquerda */
+    
     .coluna_azul {
         width: 100% !important;
         margin-left: 0 !important;
@@ -1273,8 +1273,12 @@ input, select {
         gap: 15px;
     }
 
-} /* ← fecha o @media 768px */
+     .sessao_3 h2{
+        margin: 0px;
+        text-align: center;
+    }
 
+} 
 /*------------------Ajuste Específico para Celulares (iPhone/Android)------------------------*/
 
 @media (max-width: 480px) {
@@ -1336,6 +1340,11 @@ input, select {
         grid-template-columns: 1fr;
         width: 90%;
         margin: 0 auto 10% auto;
+    }
+
+    .sessao_3 h2{
+        margin: 0px;
+        text-align: center;
     }
 
      .etapas {
