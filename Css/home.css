@@ -38,7 +38,7 @@ body, html {
     align-items: flex-start;
     padding: 80px 5%;
     padding-left: 80px;
-    padding-right: 60px;   /* ← adicione isso */
+    padding-right: 60px;  /* ← só adicionar isso */
     color: #2E2D2D;
     gap: 5%;
     width: 100%;
