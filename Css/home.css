@@ -379,6 +379,10 @@ body, html {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .cards_sessao2{
@@ -389,7 +393,11 @@ body, html {
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
     display: flex;
     flex-direction: column;
-     justify-content: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: "Montserrat", sans-serif;
 
 }
 
@@ -402,6 +410,10 @@ body, html {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: "Montserrat", sans-serif;
 }
 
  .cards_sessao4 {
@@ -413,6 +425,10 @@ body, html {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .cards_sessao1 { 
