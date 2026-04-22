@@ -1297,16 +1297,11 @@ input, select {
     }
 
     .texto_2 {
-        width: 80%;
-        max-width: 800px;
-        font-family: "Inter", sans-serif;
-        font-size: 1.1rem;
-        line-height: 1.7;
-        margin-left: 10%;
-        margin-top: 2%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        color: #2E2D2D;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 20px;
+        box-sizing: border-box;
     }
 
     .card_branco {
