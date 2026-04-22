@@ -1399,6 +1399,19 @@ input, select {
         margin-bottom: 10px;
     }
 
+    .sessao-diagnostico {
+        padding: 40px 20px;
+    }
+
+    .conteudo-info h2 {
+        font-size: 1.5rem;
+    }
+
+    .card-formulario {
+        max-width: 100%;
+        padding: 25px;
+    }
+
 } 
 /*------------------Ajuste Específico para Celulares (iPhone/Android)------------------------*/
 
