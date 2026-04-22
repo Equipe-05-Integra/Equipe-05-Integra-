@@ -1346,6 +1346,20 @@ input, select {
         padding-right: 0;
     }
 
+    .card_azul{
+        width: 90%; 
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 25px;
+        height: auto;
+        text-align: center;
+    }
+
+    .card_azul h3{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
       .card_branco{
         display: none;
     }
