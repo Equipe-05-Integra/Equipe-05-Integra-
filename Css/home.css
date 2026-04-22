@@ -183,15 +183,16 @@ body, html {
 }
 
 .container_conteudo_flex{
-    display: flex;
-    flex-direction: row;      
-    justify-content: center;   
-    align-items: flex-start;   
-    gap: 30px;                
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
     width: 100%;
-    max-width: 1200px;        
+    max-width: 1100px;
     margin: 40px auto;
-    overflow: hidden
+    padding: 0 5%;
+    box-sizing: border-box;
 }
 
 .titulo_2{
@@ -218,13 +219,13 @@ body, html {
 }
 
 .coluna_azul {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column; 
+      display: flex;
+    flex-direction: column;
     gap: 20px;
-    width: 40%; 
-    height: auto;    
-    margin-left: 40px;        
+    width: 35%;
+    flex-shrink: 0;
+    margin: 0;            
+    margin-top: 30px;       
 }
 
 .card_azul {
@@ -257,10 +258,11 @@ body, html {
 }
 
 .coluna_barreiras {
-    flex: 1;                
+    flex: 1;
     display: flex;
     flex-direction: column;
     gap: 15px;
+    min-width: 0;  
 }
 
 .coluna_branca{
