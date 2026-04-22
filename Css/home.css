@@ -1320,6 +1320,22 @@ input, select {
     .card_branco{
         display: none;
     }
+
+    .item_estatistica{
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+        border-right: none; 
+        padding-right: 0;
+    }
+
+    .card_azul{
+        width: 90%; 
+        max-width: none;
+        margin: 20px auto;
+        padding: 25px;
+        height: auto;
+    }
 }
 
 /*------------------Ajuste Específico para Celulares (iPhone/Android)------------------------*/
@@ -1352,7 +1368,6 @@ input, select {
         margin: 20px auto;
         padding: 25px;
         height: auto;
-        margin: 0 !important;
     }
 
     .card_azul h3{
@@ -1369,7 +1384,7 @@ input, select {
 @media (min-width: 768px ) and (max-width: 1024px){
 
     .img_home{
-        display: none;
+        display: none !important; 
     }
   .container-diagnostico{
         display: flex;
