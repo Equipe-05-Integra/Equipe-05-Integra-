@@ -59,7 +59,7 @@ body, html {
 }
 
 .img_home{
-    width: 30%;
+    width: 40%;
     position: relative;
     flex-shrink: 0;
     display: flex;
@@ -68,6 +68,7 @@ body, html {
     max-height: 550px;
     overflow: hidden;
     border-radius: 20px;
+    margin-right: 40px;  
 }
 .img_home img{  
     width: 100%;
