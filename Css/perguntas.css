@@ -29,8 +29,8 @@ body {
 }
 
 /* NAV */
-nav {
-  position: sticky;
+.nav-quiz {
+   position: sticky;
   top: 0;
   z-index: 100;
   background: rgba(255, 255, 255, 0.97);
