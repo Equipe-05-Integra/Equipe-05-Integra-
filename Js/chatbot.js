@@ -355,7 +355,7 @@ Pergunta do usuário:`; // Mantenha seu prompt completo aqui
                     "Authorization": "Bearer " + GROQ_API_KEY 
                 },
                 body: JSON.stringify({
-                    model: "llama-3.3-70b-versatile",
+                    model: "llama-3.1-8b-instant",
                     messages: [{ role: "system", content: promptSistema }, ...historicoConversa, { role: "user", content: userMessage }],
                     temperature: 0.7
                 })
