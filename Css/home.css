@@ -1348,11 +1348,11 @@ input, select {
 
     .card_azul{
         width: 90%; 
-        max-width: 400px;
-        margin: 0 auto;
+        max-width: none;
+        margin: 20px auto;
         padding: 25px;
         height: auto;
-        text-align: center;
+        margin: 0 !important;
     }
 
     .card_azul h3{
