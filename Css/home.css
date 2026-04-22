@@ -1300,24 +1300,18 @@ input, select {
         margin-bottom: 15px;
     }
 
-    .card_azul, .card_branco {
-        width: 100% !important;
+
+    .titulo_2{
         margin-left: 0 !important;
-        flex: none;
+        padding: 0 20px;
+    }
+    
+    .texto_2 {
+        width: 44%;
+        margin-left: 10%;
     }
 
-
-    .logos_slide img {
-        height: 30px; 
-        margin: 0 15px; 
-    }
-
-    .carrosel h2 {
-        font-size: 1.2rem;
-        text-align: center;
-    }
-
-    .card_branco{
+     .card_branco{
         display: none;
     }
 
@@ -1335,6 +1329,28 @@ input, select {
         margin: 20px auto;
         padding: 25px;
         height: auto;
+    }
+
+    .coluna_azul{
+        width: 100%;
+        margin-left: 0 !important;
+        align-items: center;
+    }
+
+    .card_azul, .card_branco {
+        width: 100% !important;
+        margin-left: 0 !important;
+        flex: none;
+    }
+
+    .logos_slide img {
+        height: 30px; 
+        margin: 0 15px; 
+    }
+
+    .carrosel h2 {
+        font-size: 1.2rem;
+        text-align: center;
     }
 }
 
