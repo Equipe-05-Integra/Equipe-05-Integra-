@@ -90,6 +90,7 @@ footer{
 footer-componente{
     display: block; 
     transform: translateY(30px);
+    opacity: 1;
     transition: all 1.2s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
