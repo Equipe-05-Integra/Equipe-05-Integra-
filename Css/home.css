@@ -106,7 +106,6 @@ body, html {
     font-size: 16px;
 }
 
-
 .dados_principais{
     display: flex;
     justify-content: flex-start;
@@ -116,8 +115,7 @@ body, html {
 }
 
 .item_estatistica{
-    display: flex;
-    font-size: 20px; 
+    display: flex; 
     flex-direction: column;
     font-family: "Montserrat", sans-serif;
     max-width: 250px;
@@ -131,7 +129,7 @@ body, html {
 }
 
 .item_estatistica h2{
-    font-size: 1.5rem !important;
+    font-size: 2.5rem !important;
     font-weight: 800 !important;
     margin-bottom: 5px !important;
     font-family: "Montserrat", sans-serif !important;
@@ -148,9 +146,18 @@ body, html {
 
 .Subtexto{
      font-family: "Inter", sans-serif;
-     font-size: 1rem;
-     font-weight: 500;
+     font-size: 1.2rem;
+     font-weight: 600;
      line-height: 1.4;
+}
+
+.item_estatistica{
+    border-right: 1px solid #ddd;
+    padding-right: 30px;
+}
+
+.item_estatistica:last-child{
+    border-right: none;
 }
 
 .divisao_de_pagina{
