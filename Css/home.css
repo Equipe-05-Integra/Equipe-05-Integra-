@@ -1240,7 +1240,6 @@ input, select {
 /*------------------Responsividade (Celulare)------------------------*/
 @media (max-width: 768px) {
 
-
     h1, .Titulo {
         font-size: 2rem !important; 
         font-weight: 800; 
@@ -1318,10 +1317,8 @@ input, select {
         text-align: center;
     }
 
-    .item_estatistica h2{
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
+    .card_branco{
+        display: none;
     }
 }
 
@@ -1339,6 +1336,18 @@ input, select {
     .diagnostico_gratuito, .veja_como_funciona {
         width: 100%;
         max-width: 100%;
+    }
+
+    .item_estatistica{
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+        border-right: none; 
+        padding-right: 0;
+    }
+
+      .card_branco{
+        display: none;
     }
 }
 
