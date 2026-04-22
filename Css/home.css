@@ -58,7 +58,7 @@ body, html {
 }
 
 .img_home{
-    width: 45%;
+    width: 40%;
     position: relative;
     flex-shrink: 0;
     justify-content: space-between;
@@ -1065,6 +1065,7 @@ input, select {
 }
 
 /*------------------Responsividade (Celular)------------------------*/
+
 @media (max-width: 768px) {
 
     h1, .Titulo {
@@ -1076,14 +1077,14 @@ input, select {
     }
 
     h2, .subtitulo {
-        font-size: 1.25rem !important; /* 20px */
+        font-size: 1.25rem !important; 
         font-weight: 700;
         word-wrap: break-word;
         overflow-wrap: break-word;
     }
 
     p, .texto_principal {
-        font-size: 1rem !important; /* 16px */
+        font-size: 1rem !important; 
         line-height: 1.6; 
         width: 100% !important;
         word-wrap: break-word;
@@ -1150,12 +1151,10 @@ input, select {
         padding-right: 0;
     }
 
-    .card_azul{
-        width: 90%; 
-        max-width: none;
-        margin: 20px auto;
-        padding: 25px;
-        height: auto;
+    .card_azul {
+     width: 100%;
+     max-width: 400px;
+     margin: 0 auto; 
     }
 
     .container_conteudo{
@@ -1169,14 +1168,15 @@ input, select {
         justify-content: center;
     }
 
-    .coluna_azul{
-        width: 100%;
-        margin-left: 0 !important;
-        display: flex;
-        flex-direction: column; 
-        align-items: center;
-        justify-content: center;
-    }
+   .coluna_azul {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+    margin-left: 0; 
+    align-items: center; 
+}
 
     .card_azul, .card_branco {
         width: 100% !important;
@@ -1196,7 +1196,9 @@ input, select {
 }
 
 /*------------------Ajuste Específico para Celulares (iPhone/Android)------------------------*/
+
 @media (max-width: 480px) {
+
     .conteudo_home {
         text-align: center; 
         align-items: center;
@@ -1253,6 +1255,7 @@ input, select {
     .img_home{
         display: none !important; 
     }
+
   .container-diagnostico{
         display: flex;
         flex-direction: column;
@@ -1285,7 +1288,7 @@ input, select {
         position: relative; 
         clear: both;
     }
-}*/
+}
 
 /*------------------------ferramentas de acessibilidade------------------------*/
 
