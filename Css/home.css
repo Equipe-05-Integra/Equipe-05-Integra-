@@ -681,7 +681,6 @@ body, html {
     animation-play-state: paused;
 }
 
-/*----------------------------------------------------*/
 .container-diagnostico {
     display: flex;
     justify-content: space-between;
@@ -1070,14 +1069,13 @@ input, select {
     transition: transform 0.4s ease;
 }
 
-/* --- Efeitos Individuais ao passar o mouse --- */
 
 .lista-beneficios li:hover .card-icone {
     background-color: #228B22; /
     transform: rotate(10deg) scale(1.1);
 }
 
-/* Inverte a cor do ícone para branco (usando filtro se for SVG preto/verde) */
+
 .lista-beneficios li:hover .card-icone img {
     filter: brightness(0) invert(1);
     transform: scale(1.2);
@@ -1095,7 +1093,7 @@ input, select {
     100% { transform: rotate(0deg) scale(1.2); }
 }
 
-/* -------- Seção Diagnóstico -------- */
+/* -------- Diagnóstico -------- */
 
 .sessao-diagnostico {
     background-color: white;
@@ -1112,7 +1110,7 @@ input, select {
     padding: 0;
 }
 
-/* Lado esquerdo */
+
 .conteudo-info h2 {
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
@@ -1131,18 +1129,18 @@ input, select {
     line-height: 1.7;
     color: #444;
     margin-bottom: 30px;
-    width: 100%;            /* corrige o overflow que estava com 65% */
+    width: 100%;            
 }
 
 .lista-beneficios span {
     font-family: "Inter", sans-serif;
     font-weight: 600;
-    font-size: 1.1rem;      /* aumentado */
+    font-size: 1.1rem;      
     color: #1a2b3c;
 }
 
 .card-icone {
-    background-color: #1A8A5A;  /* verde como na imagem */
+    background-color: #1A8A5A; 
     width: 45px;
     height: 45px;
     min-width: 45px;
@@ -1157,10 +1155,9 @@ input, select {
 .card-icone img {
     width: 22px;
     height: 22px;
-    filter: brightness(0) invert(1); /* deixa o ícone branco */
+    filter: brightness(0) invert(1); 
 }
 
-/* Lado direito - formulário */
 .card-formulario {
     background: white;
     padding: 45px;
@@ -1173,7 +1170,7 @@ input, select {
 }
 
 .card-formulario h3 {
-    font-size: 1.8rem;      /* aumentado */
+    font-size: 1.8rem;      
     font-weight: 800;
     margin-bottom: 8px;
     color: #1C2333;
@@ -1378,7 +1375,6 @@ input, select {
         text-align: center;
     }
 
-    /* Cards da seção 3 centralizados */
     .container_pai_sessao3 {
         display: flex;
         justify-content: center;
