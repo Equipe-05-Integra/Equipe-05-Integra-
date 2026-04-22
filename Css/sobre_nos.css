@@ -72,6 +72,10 @@ body span{
     left: 150px;
 }
 
+#MVV2 {
+    margin-top: 5%;
+}
+
 #topo p{
     position: absolute;
     top: 11%;
@@ -721,18 +725,48 @@ div#userwayAccessibilityIcon, .uwy.userway_buttons_wrapper { bottom: -250px !imp
 #buttonp1 { position: absolute; z-index: 20; }
 
 /* ========================= */
-/* RESPONSIVO TABLET */
+/* RESPONSIVO TABLET (max 1024px) */
 /* ========================= */
 
 @media (max-width: 1024px){
-    #topo h1{ font-size: 50px; left: 40px; }
-    #topo p, #topo #p2{ left: 40px; }
+    /* Títulos H1 → 32px */
+    #topo h1           { font-size: 32px; left: 40px; }
+    #nascer            { font-size: 32px; }
+    #impacto h1        { font-size: 32px; margin-left: 40px; }
+    #ladoA h1          { font-size: 32px; margin-left: 40px; }
+    #alvo h1, #olhar h1{ font-size: 32px; }
+    #quebra > h1       { font-size: 32px; }
+    .ods h1, .ods h1 span { font-size: 32px; }
+    .equipe h1, .equipe h1 span { font-size: 32px; }
+    #frase h1          { font-size: 32px; }
+    #ultima h1         { font-size: 32px; }
+    .para01            { font-size: 32px; }
+
+    /* Subtítulos H2/H3 → 24px */
+    h2, h3             { font-size: 24px; }
+    #nossa             { font-size: 24px; }
+
+    /* Corpo do texto p → 16px - 18px */
+    #topo p            { font-size: 16px; left: 40px; }
+    #topo #p2          { font-size: 18px; left: 40px; }
+    #branco p          { font-size: 18px; }
+    #impacto p         { font-size: 18px; margin-left: 40px; }
+    #ladoA p           { font-size: 18px; margin-left: 40px; }
+    #ladoB p           { font-size: 18px; }
+    #alvo p, #olhar p  { font-size: 18px; }
+    #quebra > p        { font-size: 18px; }
+    .para3             { font-size: 18px; }
+    .card3 p           { font-size: 18px; }
+    #frase p           { font-size: 18px; }
+
+    /* Legendas/Menus → 14px */
+    .btn               { font-size: 14px; }
+    #azul h1           { font-size: 14px; }
 
     #historia{ flex-direction: column; }
     #azul, #branco{ width: 100%; min-height: auto; padding: 60px; }
 
     #nossa{ padding-left: 40px; }
-    #nascer{ font-size: 60px; }
     #branco{ padding: 60px 40px; }
 
     #alvo, #olhar, #quebra{ 
@@ -759,30 +793,53 @@ div#userwayAccessibilityIcon, .uwy.userway_buttons_wrapper { bottom: -250px !imp
     #real{ flex-direction: column; }
     #colorido{ flex-direction: column; align-items: center; }
     .card3{ width: 90%; max-width: 100%; }
-
-    #impacto h1{ font-size: 50px; margin-left: 40px; }
-    #impacto p{ margin-left: 40px; }
-
-    #ladoA h1{ font-size: 55px; margin-left: 40px; }
-    #ladoA p{ margin-left: 40px; }
 }
 
 /* ========================= */
-/* RESPONSIVO CELULAR */
+/* RESPONSIVO CELULAR (max 600px) */
 /* ========================= */
 
 @media (max-width: 600px){
-    #topo h1{ font-size: 32px; left: 20px; top: 20%; }
-    #topo p{ font-size: 14px; left: 20px; top: 10%; }
-    #topo #p2{ font-size: 18px; left: 20px; top: 45%; max-width: 90%; padding: 0 20px; }
-    #buttonp1{ left: 20px; font-size: 14px; width: 220px; top: 80%; }
+    /* Títulos H1 → 24px - 28px */
+    #topo h1           { font-size: 26px; left: 20px; top: 20%; }
+    #nascer            { font-size: 26px; }
+    #impacto h1        { font-size: 26px; margin-left: 20px; }
+    #ladoA h1          { font-size: 26px; margin-left: 20px; }
+    #alvo h1, #olhar h1{ font-size: 26px; }
+    #quebra > h1       { font-size: 26px; }
+    .ods h1, .ods h1 span { font-size: 26px; }
+    .equipe h1, .equipe h1 span { font-size: 26px; }
+    #frase h1          { font-size: 26px; }
+    #ultima h1         { font-size: 26px; }
+    .para01            { font-size: 26px; }
+
+    /* Subtítulos H2/H3 → 20px - 22px */
+    h2, h3             { font-size: 20px; }
+    #nossa             { font-size: 20px; padding-left: 20px; }
+
+    /* Corpo do texto p → 16px (mínimo) */
+    #topo p            { font-size: 14px; left: 20px; top: 10%; }
+    #topo #p2          { font-size: 16px; left: 20px; top: 45%; max-width: 90%; padding: 0 20px; }
+    #branco p          { font-size: 16px; }
+    #impacto p         { font-size: 16px; margin-left: 20px; }
+    #ladoA p           { font-size: 16px; margin-left: 20px; }
+    #ladoB p           { font-size: 16px; margin: 10px 20px; }
+    #alvo p, #olhar p  { font-size: 16px; }
+    #quebra > p        { font-size: 16px; }
+    .para3             { font-size: 16px; }
+    .card3 p           { font-size: 16px; }
+    #frase p           { font-size: 16px; }
+
+    /* Legendas/Menus → 14px */
+    .btn               { font-size: 14px; width: 90%; text-align: center; }
+    #azul h1           { font-size: 14px; }
+    .botoes a          { font-size: 14px; width: 90%; text-align: center; }
+    #buttonp1          { left: 20px; font-size: 14px; width: 220px; top: 80%; }
 
     .linha, .linha2, .linha3{ left: 20px; width: 120px; }
 
     #azul, #branco{ padding: 40px 20px; }
-    #nascer{ font-size: 36px; }
-    #branco p{ font-size: 18px; }
-    #nossa{ padding-left: 20px; }
+    #branco p{ font-size: 16px; }
 
     #MVV{ padding: 40px 20px; gap: 30px; }
     
@@ -807,14 +864,6 @@ div#userwayAccessibilityIcon, .uwy.userway_buttons_wrapper { bottom: -250px !imp
         width: 100%;
     }
     
-    #alvo h1, #olhar h1, #quebra h1{ 
-        font-size: 36px;
-    }
-    
-    #alvo p, #olhar p, #quebra p{ 
-        font-size: 14px;
-    }
-    
     #quebra > h1 {
         position: relative;
         left: 0;
@@ -830,27 +879,13 @@ div#userwayAccessibilityIcon, .uwy.userway_buttons_wrapper { bottom: -250px !imp
         padding: 0 20px 20px 20px;
     }
 
-    #impacto h1{ font-size: 36px; margin-left: 20px; }
-    #impacto p{ font-size: 18px; margin-left: 20px; }
     #real{ flex-direction: column; }
     .cards{ padding: 20px; }
-    .botoes a{ font-size: 16px; width: 90%; text-align: center; }
 
-    #ladoA h1{ font-size: 36px; margin-left: 20px; }
-    #ladoA p{ font-size: 18px; margin-left: 20px; }
-    #ladoB p{ font-size: 18px; margin: 10px 20px; }
     #colorido{ padding: 0 20px; }
     .card3{ width: 100%; }
-    .para3{ font-size: 16px; }
 
-    .ods h1{ font-size: 36px; }
+    .ods h1{ font-size: 26px; }
 
     #frase1{ padding: 30px 20px; }
-    #frase h1{ font-size: 24px; }
-    #frase p{ font-size: 16px; }
-
-    #ultima h1{ font-size: 28px; }
-    .btn{ width: 90%; text-align: center; }
 }
-
-
