@@ -156,10 +156,6 @@ body, html {
     padding-right: 30px;
 }
 
-.item_estatistica h2{
-    font-size: 60px !important;
-    color: red !important;
-}
 
 .item_estatistica:last-child{
     border-right: none;
