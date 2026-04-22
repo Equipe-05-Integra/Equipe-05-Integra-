@@ -1127,7 +1127,7 @@ input, select {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
     line-height: 1.7;
-    color: #444;
+    color: #1A1A1A ;
     margin-bottom: 30px;
     width: 100%;            
 }
@@ -1179,7 +1179,7 @@ input, select {
 .subtitulo {
     font-family: "Inter", sans-serif;
     font-size: 0.95rem;
-    color: #888;
+    color: #1A1A1A ;
     margin-bottom: 25px;
 }
 
