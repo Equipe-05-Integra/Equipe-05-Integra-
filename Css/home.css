@@ -198,7 +198,7 @@ body, html {
 }
 
 .texto_2{
-    width: 44%;
+    width: 100%;
     font-family: "Inter", sans-serif;
     font-size: 20px;
     margin-left: 10%;
@@ -1069,23 +1069,23 @@ input, select {
 @media (max-width: 768px) {
 
     h1, .Titulo {
-        font-size: 2rem !important; 
-        font-weight: 800; 
+        font-size: 2rem !important;
+        font-weight: 800;
         line-height: 1.2;
         word-wrap: break-word;
         overflow-wrap: break-word;
     }
 
     h2, .subtitulo {
-        font-size: 1.25rem !important; 
+        font-size: 1.25rem !important;
         font-weight: 700;
         word-wrap: break-word;
         overflow-wrap: break-word;
     }
 
     p, .texto_principal {
-        font-size: 1rem !important; 
-        line-height: 1.6; 
+        font-size: 1rem !important;
+        line-height: 1.6;
         width: 100% !important;
         word-wrap: break-word;
         overflow-wrap: break-word;
@@ -1099,7 +1099,6 @@ input, select {
         display: none !important;
     }
 
-  
     .container-diagnostico, .container_da_secao {
         display: flex;
         flex-direction: column;
@@ -1110,7 +1109,7 @@ input, select {
 
     .linha-dupla {
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
         width: 100%;
         gap: 0;
     }
@@ -1128,55 +1127,62 @@ input, select {
         margin-bottom: 15px;
     }
 
-
-    .titulo_2{
+    .titulo_2 {
         margin-left: 0 !important;
         padding: 0 20px;
+        width: 100%;
+        box-sizing: border-box;
     }
 
+    /* CORRIGIDO: estava com 44%, causava overflow */
     .texto_2 {
-        width: 44%;
-        margin-left: 10%;
+        width: 100% !important;
+        margin-left: 0 !important;
+        padding: 0 20px;
+        box-sizing: border-box;
     }
 
-     .card_branco{
+    .card_branco {
         display: none;
     }
 
-    .item_estatistica{
+    .item_estatistica {
         max-width: 100%;
         width: 100%;
         text-align: center;
-        border-right: none; 
+        border-right: none;
         padding-right: 0;
     }
 
     .card_azul {
-     width: 100%;
-     max-width: 400px;
-     margin: 0 auto; 
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
     }
 
-    .container_conteudo{
+    .container_conteudo,
+    .container_conteudo_flex {
+        width: 100% !important;
         margin-left: 0 !important;
-        justify-content: center;
+        margin-right: 0 !important;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .conatainer_conteudo_flex{
-        flex-direction:column;
-        align-items: center !important;
-        justify-content: center;
+    /* CORRIGIDO: estava com width: 40%, ficava colado na esquerda */
+    .coluna_azul {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding: 0 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
     }
-
-   .coluna_azul {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 40%;
-    margin-left: 0; 
-    align-items: center; 
-}
 
     .card_azul, .card_branco {
         width: 100% !important;
@@ -1185,22 +1191,42 @@ input, select {
     }
 
     .logos_slide img {
-        height: 30px; 
-        margin: 0 15px; 
+        height: 30px;
+        margin: 0 15px;
     }
 
     .carrosel h2 {
         font-size: 1.2rem;
         text-align: center;
     }
-}
+
+    /* Cards da seção 3 centralizados */
+    .container_pai_sessao3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .lista_solucoes {
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto 10% auto;
+        padding: 0;
+        gap: 15px;
+    }
+
+} /* ← fecha o @media 768px */
 
 /*------------------Ajuste Específico para Celulares (iPhone/Android)------------------------*/
 
 @media (max-width: 480px) {
 
     .conteudo_home {
-        text-align: center; 
+        text-align: center;
         align-items: center;
         padding-left: 20px;
         padding-right: 20px;
@@ -1213,42 +1239,49 @@ input, select {
         max-width: 100%;
     }
 
-    .item_estatistica{
+    .item_estatistica {
         max-width: 100%;
         width: 100%;
         text-align: center;
-        border-right: none; 
+        border-right: none;
         padding-right: 0;
     }
 
-    .card_azul{
-        width: 90%; 
+    .card_azul {
+        box-sizing: border-box;
+        width: 90% !important;
         max-width: none;
-        margin: 20px auto;
+        margin: 20px auto !important;
         padding: 25px;
         height: auto;
     }
 
-    .card_azul h3{
+    .card_azul h3 {
         font-size: 1.8rem;
         text-align: center;
     }
 
-      .card_branco{
-        display: none;
-    }
-
-     .coluna_azul{
-        width: 100%;
+    .coluna_azul {
+        width: 100% !important;
         margin-left: 0 !important;
+        padding: 0 20px;
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
         align-items: center;
-        justify-content: center;
+        gap: 20px;
     }
 
-}
+    .card_branco {
+        display: flex;
+    }
 
+    .lista_solucoes {
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin: 0 auto 10% auto;
+    }
+
+} 
 /*------------------Responsividade (tablet)----------------------*/
 @media (min-width: 768px ) and (max-width: 1024px){
 
