@@ -138,6 +138,7 @@ header{
     top: 0px;
     right: 0px;
     width: 300px;
+    max-width: 85vw
     height: 100vh;
     background-color: white;
     z-index: 2000;
@@ -149,6 +150,7 @@ header{
 
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
 } 
 
 .container_menu_lateral.ativo{
