@@ -36,7 +36,7 @@ main {
     width: 120%;
     line-height: 0.90;/* altura das letras*/
     font-family: montserrat;
-    font-size: 65px;
+    font-size: 40px;
 
 }
 
@@ -47,7 +47,7 @@ main {
 .home_p {
     width: 130%;
     height: auto;
-    font-size: 25px;
+    font-size: 16px;
 }
 
 .botoes {
@@ -112,9 +112,10 @@ main {
 }
 
 .home_dados {
+
     position: relative;
     margin-left: 90px;
-    margin-top: 151px;
+    margin-top: 50px;
     width: 571px;
     height: 390px;
     color: black;
@@ -284,13 +285,17 @@ main {
     width: 80%;
 }
 
+#acess_h1 h2 {
+    font-size: 32px;
+}
+
 #MarTex_verde {
     color: #E85D1A
 }
 
 #acess_p {
     color: #ffffff;
-    font-size: 22px;
+    font-size: 16px;
     text-align: center;
     width: 79%;
     line-height: 1;
@@ -354,12 +359,12 @@ main {
 }
 
 .blocos_caixa1 h2 {
-    font-size: 27px;
+    font-size: 32px;
 }
 
 .bloco_caixa_p {
     width: 70%;
-    font-size: 20px;
+    font-size: 16px;
     color: #342f2f;
     line-height: 1;
 }
@@ -376,6 +381,10 @@ main {
     flex-direction: column;
     gap: 95px;
     font-size: 30px;
+}
+
+#home_consutoria h2 {
+    font-size: 32px;
 }
 
 #consutoria_MarTex {
@@ -438,14 +447,14 @@ main {
 
 .h2_consultoria {
     width: auto;
-    font-size: 22px;
+    font-size: 32px;
     color: #1e1c1c;
 }
 
 .p_consultoria {
     color: #262121;
     width: 370px;
-    font-size: 25px;
+    font-size: 16px;
 }
 
 .img_consul {
@@ -490,6 +499,10 @@ main {
     font-size: 30px;
 }
 
+#head_transf h2 {
+    font-size: 32px;
+}
+
 #tranf_laran {
     color: #E85D1A;
 }
@@ -500,7 +513,7 @@ main {
     height: 40px;
     display: flex;
     justify-content: center;
-    font-size: 19px;
+    font-size: 16px;
 }
 
 #trindades {
@@ -553,24 +566,24 @@ main {
     align-items: center;
     justify-content: center;
     width: 50%;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .trin_p {
     width: 80%;
-    font-size: 21px;
+    font-size: 16px;
 }
 
 .trin_ps {
     margin-top: 20px;
     width: 80%;
-    font-size: 21px;
+    font-size: 16px;
 }
 
 .trin_pd {
     margin-top: 0px;
     width: 80%;
-    font-size: 21px;
+    font-size: 16px;
 }
 
 #parte2 {
@@ -583,7 +596,7 @@ main {
 
 .titulo {
     margin-bottom: 40px;
-    font-size: 28px;
+    font-size: 32px;
     padding: 0 20px;
 }
 
@@ -669,7 +682,7 @@ main {
 }
 
 .item p {
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.6;
     color: #cbd5e1;
     margin-bottom: 25px;
@@ -735,7 +748,7 @@ main {
 }
 
 .titulo_quest {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 800;
     letter-spacing: -1px;
     text-align: center;
@@ -743,7 +756,7 @@ main {
 }
 
 .texto-apoio {
-    font-size: 19px;
+    font-size: 16px;
     color: #2a2b2c;
     text-align: center;
     margin-bottom: 50px;
@@ -881,18 +894,18 @@ div#userwayAccessibilityIcon,
 
     .home_texto h1 {
         width: 100%;
-        font-size: 46px;
+        font-size: 32px;
         line-height: 1;
     }
 
     .home_p {
         width: 100%;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .botoes {
         width: 30%;
-        font-size: 15px;
+        font-size: 14px;
         gap: 16px;
     }
 
@@ -923,7 +936,10 @@ div#userwayAccessibilityIcon,
 
     #acess_h1 {
         width: 90%;
-        font-size: 26px;
+    }
+
+    #acess_h1 h2 {
+        font-size: 32px;
     }
 
     #acess_p {
@@ -946,12 +962,12 @@ div#userwayAccessibilityIcon,
     }
 
     .blocos_caixa1 h2 {
-        font-size: 22px;
+        font-size: 24px;
     }
 
     .bloco_caixa_p {
         width: 90%;
-        font-size: 17px;
+        font-size: 16px;
         line-height: 1.4;
     }
 
@@ -961,6 +977,10 @@ div#userwayAccessibilityIcon,
         gap: 60px;
         font-size: 24px;
         margin: 60px auto;
+    }
+
+    #home_consutoria h2 {
+        font-size: 32px;
     }
 
     #caixote {
@@ -989,12 +1009,12 @@ div#userwayAccessibilityIcon,
     }
 
     .h2_consultoria {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .p_consultoria {
         width: 100%;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .img_consul {
@@ -1020,6 +1040,10 @@ div#userwayAccessibilityIcon,
         font-size: 24px;
     }
 
+    #head_transf h2 {
+        font-size: 32px;
+    }
+
     #p_transf {
         font-size: 16px;
         height: auto;
@@ -1043,32 +1067,32 @@ div#userwayAccessibilityIcon,
     }
 
     .trin_h3 {
-        font-size: 40px;
+        font-size: 24px;
         height: 56px;
         margin-top: 30px;
     }
 
     .trin_h4 {
         width: 70%;
-        font-size: 20px;
+        font-size: 24px;
         text-align: center;
     }
 
     .trin_p,
     .trin_ps,
     .trin_pd {
-        font-size: 15px;
+        font-size: 16px;
         width: 85%;
         text-align: center;
     }
 
-    /*depoimentos*/
+    /depoimentos/
     #parte2 {
         padding: 50px 20px;
     }
 
     .titulo {
-        font-size: 22px;
+        font-size: 32px;
         margin-bottom: 30px;
     }
 
@@ -1080,7 +1104,7 @@ div#userwayAccessibilityIcon,
     }
 
     .item p {
-        font-size: 15px;
+        font-size: 16px;
         min-height: 60px;
     }
 
@@ -1104,7 +1128,7 @@ div#userwayAccessibilityIcon,
     }
 
     .titulo_quest {
-        font-size: 24px;
+        font-size: 32px;
         text-align: center;
     }
 
@@ -1147,18 +1171,18 @@ div#userwayAccessibilityIcon,
 
     .home_texto h1 {
         width: 100%;
-        font-size: 46px;
+        font-size: 26px;
         line-height: 1;
     }
 
     .home_p {
         width: 100%;
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .botoes {
         width: 40%;
-        font-size: 11px;
+        font-size: 14px;
         gap: 16px;
     }
 
@@ -1189,11 +1213,14 @@ div#userwayAccessibilityIcon,
 
     #acess_h1 {
         width: 90%;
-        font-size: 26px;
+    }
+
+    #acess_h1 h2 {
+        font-size: 22px;
     }
 
     #acess_p {
-        font-size: 18px;
+        font-size: 16px;
         width: 90%;
         line-height: 1.4;
     }
@@ -1217,7 +1244,7 @@ div#userwayAccessibilityIcon,
 
     .bloco_caixa_p {
         width: 90%;
-        font-size: 17px;
+        font-size: 16px;
         line-height: 1.4;
     }
 
@@ -1227,6 +1254,10 @@ div#userwayAccessibilityIcon,
         gap: 60px;
         font-size: 24px;
         margin: 60px auto;
+    }
+
+    #home_consutoria h2 {
+        font-size: 22px;
     }
 
     #caixote {
@@ -1260,7 +1291,7 @@ div#userwayAccessibilityIcon,
 
     .p_consultoria {
         width: 100%;
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .img_consul {
@@ -1283,6 +1314,10 @@ div#userwayAccessibilityIcon,
 
     #head_transf {
         width: 90%;
+        font-size: 24px;
+    }
+
+    #head_transf h2 {
         font-size: 24px;
     }
 
@@ -1309,24 +1344,24 @@ div#userwayAccessibilityIcon,
     }
 
     .trin_h3 {
-        font-size: 30px;
+        font-size: 20px;
         height: 56px;
         margin-top: 30px;
     }
 
     .trin_h4 {
         width: 70%;
-        font-size:10px;
+        font-size: 14px;
         text-align: center;
     }
 
     .trin_p,
     .trin_ps,
     .trin_pd {
-  display: none;
+        display: none;
     }
 
-    /*depoimentos*/
+    /depoimentos/
     #parte2 {
         padding: 50px 20px;
     }
@@ -1344,7 +1379,7 @@ div#userwayAccessibilityIcon,
     }
 
     .item p {
-        font-size: 15px;
+        font-size: 16px;
         min-height: 60px;
     }
 
@@ -1368,7 +1403,7 @@ div#userwayAccessibilityIcon,
     }
 
     .titulo_quest {
-        font-size: 24px;
+        font-size: 26px;
         text-align: center;
     }
 
@@ -1393,7 +1428,6 @@ div#userwayAccessibilityIcon,
         font-size: 17px;
     }
 }
-
 /*------------------Posicionamento das ferramentas de acessibilidade------------------------*/
 
 .enabled{

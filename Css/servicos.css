@@ -9,7 +9,7 @@
 main {
     height: auto;
     color: #fff;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     display: flex;
     flex-direction: column;
     gap: 80px;
@@ -29,17 +29,20 @@ main {
 
 #text_home {
     position: absolute;
-    /* border: 1px solid seagreen; */
     width: 40%;
-    height: 320px;
+    height: 350px;
     z-index: 1;
-    top: 150px;
-    left: 180px;
-    font-size: 27px;
+    top: 120px;
+    left: 150px;
     line-height: 0.90;
     display: flex;
     flex-direction: column;
     gap: 110px;
+}
+
+#tex_h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
 }
 
 #destaque {
@@ -47,17 +50,17 @@ main {
 }
 
 #botao_home {
-    /* border: 1px solid black; */
-    width: 50%;
-    height: 55px;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
-
+    width: fit-content;
+    padding: 12px 32px;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
     background-color: #E85D1A;
-    border-radius: 15px;
+    border-radius: 6px;
     box-shadow: 1px 1px 10px 4px rgba(197, 197, 197, 0.3);
+    white-space: nowrap;
 }
 
 #botao_home:hover {
@@ -66,7 +69,6 @@ main {
 }
 
 #diagnostico {
-    /* border: 1px solid green; */
     width: 75%;
     text-align: center;
     height: 380px;
@@ -80,30 +82,29 @@ main {
 }
 
 #titu_h2 {
-    /* border: 1px solid purple; */
+    font-family: "Montserrat", sans-serif;
     height: auto;
     width: 80%;
     gap: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 35px;
+    font-size: 2rem;
 }
 
 #titu_p {
-    /* border: 1px solid navy; */
+    font-family: "Inter", sans-serif;
     height: auto;
     width: 70%;
-    font-size: 20px;
-    line-height: 0.90;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 #botao_diag {
-    /* border: 1px solid slateblue; */
     background-color: #E85D1A;
     color: #fff;
     height: 50px;
-    font-size: 25px;
+    font-size: 1rem;
     width: 29%;
     display: flex;
     justify-content: center;
@@ -117,20 +118,16 @@ main {
     background-color: rgb(196, 77, 20);
 }
 
-/* preços */
 #servicos {
-    /* border: 3px solid firebrick; */
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 #home_serv {
-    /* border: 1px solid black; */
     width: 80%;
     height: auto;
     display: flex;
@@ -139,22 +136,22 @@ main {
     align-items: center;
     color: #000;
     text-align: center;
-
 }
 
 #serv_h2 {
-    font-size: 35px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
 }
 
 #serv_p {
+    font-family: "Inter", sans-serif;
     width: 70%;
     margin-top: 15px;
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 #conteiner {
     margin-top: 40px;
-    /* border: 7px solid seagreen; */
     height: 700px;
     width: 100%;
     display: flex;
@@ -165,7 +162,6 @@ main {
 
 .bloc {
     color: #000;
-    /* border: 2px solid firebrick; */
     height: 659px;
     width: 428px;
     border-radius: 5%;
@@ -185,7 +181,6 @@ main {
 }
 
 #amarelo {
-    /* border: 1px solid black; */
     height: 10%;
     width: 100%;
     background-color: #E6A817;
@@ -193,7 +188,6 @@ main {
 }
 
 #azul {
-    /* border: 1px solid black; */
     height: 10%;
     width: 100%;
     background-color: #1A8A5A;
@@ -201,47 +195,46 @@ main {
 }
 
 #verde {
-    /* border: 1px solid black; */
     height: 10%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
-    font-size: 25px;
+    font-size: 1rem;
     background-color: #1E5FA8;
     border-radius: 22px 22px 0px 0px;
 }
 
 .nome_conte {
+    font-family: "Montserrat", sans-serif;
     margin-top: 50px;
-    /* border: 1px solid purple; */
     width: 85%;
     height: auto;
-    font-size: 32px;
+    font-size: 1.5rem;
 }
 
 .preco {
-    /* border: 1px solid darkolivegreen; */
+    font-family: "Inter", sans-serif;
     margin-top: 19px;
     width: 85%;
-    font-size: 18px;
+    font-size: 1rem;
     height: auto;
 }
 
 .num {
     margin-left: 2px;
-    font-size: 25px;
+    font-size: 1.25rem;
     font-weight: bolder;
     color: #252121;
 }
 
 .benficios {
+    font-family: "Inter", sans-serif;
     margin-top: 35px;
-    /* border: 2px solid slateblue; */
     width: 85%;
     height: auto;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 1.50;
 }
 
@@ -252,7 +245,7 @@ main {
     color: #ffffff;
     display: flex;
     background-color: #E6A817;
-    font-size: 20px;
+    font-size: 1rem;
     justify-content: center;
     align-items: center;
     border-radius: 14px;
@@ -270,7 +263,7 @@ main {
     color: #ffffff;
     display: flex;
     background-color: #1A8A5A;
-    font-size: 20px;
+    font-size: 1rem;
     justify-content: center;
     align-items: center;
     border-radius: 14px;
@@ -288,7 +281,7 @@ main {
     color: #ffffff;
     display: flex;
     background-color: #1E5FA8;
-    font-size: 20px;
+    font-size: 1rem;
     justify-content: center;
     align-items: center;
     border-radius: 14px;
@@ -300,7 +293,6 @@ main {
 }
 
 #Individual {
-    /* border: 1px solid #E6A817; */
     width: 100%;
     height: 590px;
     display: flex;
@@ -308,29 +300,29 @@ main {
 }
 
 #parte1 {
-    /* border: 1px solid red; */
     width: 60%;
     height: 100%;
     color: #000;
 }
 
 #titulo {
-    font-size: 55px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
     margin-left: 280px;
     margin-top: 90px;
 }
 
 #ind_p {
-    font-size: 24px;
-    /* border: 2px solid slateblue; */
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
     margin-top: 20px;
     width: 55%;
     margin-left: 280px;
+    line-height: 1.5;
 }
 
 #botao_ind {
-    /* border: 1px solid seagreen; */
-    font-size: 21px;
+    font-size: 1rem;
     display: flex;
     color: #ffffff;
     justify-content: center;
@@ -349,7 +341,6 @@ main {
 }
 
 #imd_inf {
-    /* border:2px solid #1a1de8; */
     height: 85%;
     width: 90%;
     display: flex;
@@ -358,7 +349,7 @@ main {
 
 #imd_inf img {
     height: 100%;
-    width: 100%
+    width: 100%;
 }
 
 #espaco {
@@ -375,7 +366,6 @@ main {
 div#userwayAccessibilityIcon,
 .userway_buttons_wrapper,
 .u_w {
-
     bottom: 20px !important;
     left: 22px !important;
     right: auto !important;
@@ -386,22 +376,24 @@ div#userwayAccessibilityIcon,
     main {
         gap: 50px;
     }
+
     #text_home {
         width: 55%;
         top: 80px;
         left: 60px;
-        font-size: 22px;
         gap: 70px;
         height: auto;
     }
 
-    #botao_home {
-        width: 65%;
-        height: 50px;
-        font-size: 18px;
+    #tex_h1 {
+        font-size: 2rem;
     }
 
-    /* Diagnóstico */
+    #botao_home {
+        font-size: 0.875rem;
+        padding: 10px 24px;
+    }
+
     #diagnostico {
         width: 90%;
         height: auto;
@@ -410,32 +402,31 @@ div#userwayAccessibilityIcon,
     }
 
     #titu_h2 {
-        font-size: 28px;
+        font-size: 2rem;
         width: 100%;
     }
 
     #titu_p {
-        font-size: 17px;
+        font-size: 1rem;
         width: 85%;
     }
 
     #botao_diag {
-        font-size: 20px;
+        font-size: 1rem;
         width: 42%;
         height: 48px;
     }
 
-    /* Serviços */
     #home_serv {
         width: 90%;
     }
 
     #serv_h2 {
-        font-size: 28px;
+        font-size: 2rem;
     }
 
     #serv_p {
-        font-size: 17px;
+        font-size: 1rem;
         width: 85%;
     }
 
@@ -462,7 +453,15 @@ div#userwayAccessibilityIcon,
 
     .nome_conte {
         margin-top: 30px;
-        font-size: 26px;
+        font-size: 1.5rem;
+    }
+
+    .preco {
+        font-size: 1rem;
+    }
+
+    .benficios {
+        font-size: 1rem;
     }
 
     #botao_conte,
@@ -470,9 +469,9 @@ div#userwayAccessibilityIcon,
     #botao_conteV {
         margin-top: 30px;
         width: 70%;
+        font-size: 1rem;
     }
 
-    /* Seção Individual */
     #Individual {
         display: flex;
         align-items: center;
@@ -489,14 +488,14 @@ div#userwayAccessibilityIcon,
     }
 
     #titulo {
-        font-size: 40px;
+        font-size: 2rem;
         margin-left: 0;
         margin-top: 50px;
         width: 80%;
     }
 
     #ind_p {
-        font-size: 20px;
+        font-size: 1rem;
         width: 80%;
         margin-left: 0;
     }
@@ -504,7 +503,7 @@ div#userwayAccessibilityIcon,
     #botao_ind {
         margin-left: 0;
         width: 50%;
-        font-size: 18px;
+        font-size: 1rem;
     }
 
     #imd_inf {
@@ -512,7 +511,6 @@ div#userwayAccessibilityIcon,
     }
 }
 
-/* celular */
 @media (max-width: 600px) {
     main {
         gap: 40px;
@@ -531,19 +529,20 @@ div#userwayAccessibilityIcon,
         width: 85%;
         top: 40px;
         left: 20px;
-        font-size: 16px;
         gap: 40px;
         height: auto;
     }
 
+    #tex_h1 {
+        font-size: 1.625rem;
+    }
+
     #botao_home {
-        width:50%;
-        height: 44px;
-        font-size: 15px;
+        font-size: 0.875rem;
+        padding: 10px 20px;
         border-radius: 10px;
     }
 
-    /* Diagnóstico */
     #diagnostico {
         width: 95%;
         padding: 30px 0;
@@ -552,25 +551,24 @@ div#userwayAccessibilityIcon,
     }
 
     #titu_h2 {
-        font-size: 22px;
+        font-size: 1.375rem;
         width: 100%;
         flex-direction: column;
         text-align: center;
     }
 
     #titu_p {
-        font-size: 15px;
+        font-size: 1rem;
         width: 95%;
         line-height: 1.4;
     }
 
     #botao_diag {
-        font-size: 16px;
+        font-size: 1rem;
         width: 70%;
         height: 44px;
     }
 
-    /* Serviços */
     #servicos {
         padding: 0 10px;
     }
@@ -580,11 +578,11 @@ div#userwayAccessibilityIcon,
     }
 
     #serv_h2 {
-        font-size: 22px;
+        font-size: 1.375rem;
     }
 
     #serv_p {
-        font-size: 15px;
+        font-size: 1rem;
         width: 95%;
     }
 
@@ -612,25 +610,25 @@ div#userwayAccessibilityIcon,
     #azul,
     #verde {
         height: 60px;
-        font-size: 18px;
+        font-size: 1rem;
     }
 
     .nome_conte {
         margin-top: 20px;
-        font-size: 22px;
+        font-size: 1.375rem;
     }
 
     .preco {
-        font-size: 15px;
+        font-size: 1rem;
         margin-top: 12px;
     }
 
     .num {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     .benficios {
-        font-size: 15px;
+        font-size: 1rem;
         margin-top: 20px;
     }
 
@@ -639,11 +637,10 @@ div#userwayAccessibilityIcon,
     #botao_conteV {
         width: 80%;
         height: 44px;
-        font-size: 16px;
+        font-size: 1rem;
         margin-top: 20px;
     }
 
-    /* Seção Individual */
     #Individual {
         display: flex;
         align-items: center;
@@ -655,30 +652,30 @@ div#userwayAccessibilityIcon,
         width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;   
+        align-items: center;
         text-align: center;
     }
 
     #titulo {
-        font-size: 28px;
-        margin-left: 0;        
+        font-size: 1.625rem;
+        margin-left: 0;
         margin-top: 30px;
         width: 85%;
     }
 
     #ind_p {
-        font-size: 15px;
+        font-size: 1rem;
         width: 85%;
-        margin-left: 0;      
+        margin-left: 0;
         margin-top: 12px;
     }
 
     #botao_ind {
-        margin-left: 0;         
+        margin-left: 0;
         margin-top: 20px;
         width: 70%;
         height: 44px;
-        font-size: 15px;
+        font-size: 0.875rem;
     }
 
     #imd_inf {
