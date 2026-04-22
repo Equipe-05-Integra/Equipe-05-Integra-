@@ -475,6 +475,51 @@ ul {
         gap: 12px;
     }
 
+    /* Título Principal H1 → 32px */
+    #header h1,
+    #texto h1,
+    #cardNov h1,
+    #paragr1,
+    #emprego {
+        font-size: 32px;
+    }
+
+    /* Subtítulos H2/H3 → 24px */
+    .titulo,
+    .texto1 h1,
+    .texto2 h1,
+    .texto3 h1,
+    .texto4 h1,
+    #lidas {
+        font-size: 24px;
+    }
+
+    /* Corpo do Texto p → 16px - 18px */
+    .descricao,
+    .p2,
+    #cardNov p,
+    .texto1 p,
+    .texto2 p,
+    .texto3 p,
+    .texto4 p {
+        font-size: 17px;
+    }
+
+    /* Legendas/Menus → 14px */
+    .menu,
+    .menu li,
+    .categoria,
+    .tempo,
+    .btn-ler,
+    .horas,
+    #alerta h1,
+    .botao-assinar,
+    .botao-assinar2,
+    #botao input,
+    #botao button {
+        font-size: 14px;
+    }
+
     .cardss {
         grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
         gap: 24px;
@@ -517,8 +562,47 @@ ul {
         padding: 14px 16px 14px 110px;
     }
 
-    #alerta h1 {
-        font-size: 13px;
+    /* Título Principal H1 → 24px - 28px */
+    #header h1,
+    #texto h1,
+    #cardNov h1,
+    #paragr1,
+    #emprego {
+        font-size: clamp(24px, 6vw, 28px);
+    }
+
+    /* Subtítulos H2/H3 → 20px - 22px */
+    .titulo,
+    .texto1 h1,
+    .texto2 h1,
+    .texto3 h1,
+    .texto4 h1,
+    #lidas {
+        font-size: clamp(20px, 5vw, 22px);
+    }
+
+    /* Corpo do Texto p → 16px (mínimo) */
+    .descricao,
+    .p2,
+    #cardNov p,
+    .texto1 p,
+    .texto2 p,
+    .texto3 p,
+    .texto4 p {
+        font-size: 16px;
+    }
+
+    /* Legendas/Menus → 14px */
+    .menu,
+    .menu li,
+    .categoria,
+    .tempo,
+    .btn-ler,
+    .horas,
+    #alerta h1,
+    .botao-assinar,
+    .botao-assinar2 {
+        font-size: 14px;
     }
 
     #avanco img {
@@ -587,3 +671,13 @@ ul {
 }
 
 
+@media (max-width: 971px){
+    #texto h1{
+        font-size: 30px;
+        margin-top: 130px;
+    }
+    #p2{
+        top: 100px;
+
+    }
+}
