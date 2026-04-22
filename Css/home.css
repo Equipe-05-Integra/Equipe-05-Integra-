@@ -170,7 +170,7 @@ body, html {
 .container_conteudo {
     display: flex;         
     gap: 40px;             
-    margin-left: 40px;       
+    justify-content: center;     
     align-items: flex-start; 
 }
 
@@ -1160,6 +1160,7 @@ input, select {
 
     .container_conteudo{
         margin-left: 0 !important;
+        justify-content: center;
     }
 
     .conatainer_conteudo_flex{
@@ -1167,7 +1168,7 @@ input, select {
         align-items: center !important;
         justify-content: center;
     }
-    
+
     .coluna_azul{
         width: 100%;
         margin-left: 0 !important;
