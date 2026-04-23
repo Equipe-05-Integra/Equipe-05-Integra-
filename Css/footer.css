@@ -125,11 +125,6 @@ footer-componente.footer-visivel{
     gap: 12px; 
 }
 
-.footer_links nav a {
-    transition: transform 0.3s ease, color 0.3s ease;
-    display: inline-block; 
-}
-
 .footer_links nav a:hover {
     transform: translateX(8px);
     color: #E85D1A;
