@@ -139,7 +139,7 @@ nav {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 80px 5% 0;
+  padding: 80px 5% 120px;
   background: linear-gradient(160deg, #f0f4ff 0%, #faf8f4 50%, #f0faf5 100%);
   overflow: hidden;
 }
