@@ -68,14 +68,6 @@ footer{
     margin-bottom: 15px;
 }
 
-
-.footer_links nav{
-    display: flex;
-    flex-direction: column;
-    gap: 12px; 
-}
-
-
 .footer_links a, .info_contato {
     color: white;
     text-decoration: none;
@@ -125,7 +117,7 @@ footer-componente.footer-visivel{
     gap: 12px; 
 }
 
-.footer_links nav a:hover {
+.footer_links .footer-nav a:hover {
     transform: translateX(8px);
     color: #E85D1A;
 }
@@ -160,44 +152,23 @@ footer-componente.footer-visivel{
         width: 100%;
     }
 
-        .footer_plataforma{
-            width: 100%;
-        }
-
-        .footer_plataforma nav{
-            gap:15px
-        }
-
-        .footer_links h4{
-            margin-bottom: 10px;
-        }
-
-         .footer_recursos{
-            display: none;
-          }
-
-          .footer_contato{
-            display: none;
-          }
+    .footer_plataforma{
+        width: 100%;
     }
 
-/*------------------Posicionamento das ferramentas de sustentabilidade------------------------*/
+    .footer_plataforma .footer-nav{
+        gap: 15px;
+    }
 
-.enabled{
-    position: fixed !important;
-    bottom: 20px !important;
-    right: 10px !important;
-    left: auto !important;
+    .footer_links h4{
+        margin-bottom: 10px;
+    }
+
+    .footer_recursos{
+        display: none;
+    }
+
+    .footer_contato{
+        display: none;
+    }
 }
-
-div#userwayAccessibilityIcon, 
-.userway_buttons_wrapper, 
-.u_w {
-
-    bottom: 20px !important;
-    left: 30px !important;
-    right: auto !important; 
-    top: auto !important;
-}
-
-
