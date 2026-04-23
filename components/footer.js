@@ -1,5 +1,4 @@
-
-    class Footer extends HTMLElement {
+class Footer extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
           <footer>
@@ -26,7 +25,7 @@
                  <div class="footer_links plataforma">
                     <div class="footer_plataforma coluna">
                          <h4>Plataforma</h4>
-                         <nav>
+                         <nav class="footer-nav">
                              <a href="/index.html">Início</a>
                              <a href="/pages/12_Sobre_Nos.html">Quem Somos</a>
                              <a href="/pages/03_servicos.html">Serviços</a>
@@ -40,7 +39,7 @@
                  <div class="footer_links recursos">
                     <div class="footer_recursos coluna">
                          <h4>Recursos</h4>
-                         <nav>
+                         <nav class="footer-nav">
                              <a href="/pages/noticias.html">Acessibilidade no Brasil</a>
                              <a href="https://drive.prefeitura.sp.gov.br/cidade/secretarias/upload/NBR9050_20.pdf">Guia NBR 9050</a>
                              <a href="https://guia-wcag.com/">WCAG para empresas</a>
@@ -52,7 +51,7 @@
                  <div class="footer_links contato">
                      <div class="footer_contato coluna">
                          <h4>Contato</h4>
-                         <nav>
+                         <nav class="footer-nav">
                              <a>integra_mais@gmail.com</a>
                              <a>(11) 3123-4567</a>
                              <a class="info_contato">Av. Paulista, 1234 — São Paulo (Local)</a>
@@ -66,10 +65,8 @@
     }
 }
 
-// Registra apenas UMA vez
 customElements.define('footer-componente', Footer);
 
-// Configuração do Observer corrigida
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -85,27 +82,19 @@ if (footerElement) {
 
 window.addEventListener('load', () => {
     const footer = document.querySelector('footer-componente');
-    const coluna = document.querySelectorAll('.coluna');
-
     if (footer) {
-        // Adiciona a classe após 300ms 
         setTimeout(() => {
             footer.classList.add('footer-visivel');
         }, 300);
     }
 });
 
-window.addEventListener("load", () =>{
-
+window.addEventListener("load", () => {
     const coluna = document.querySelectorAll(".coluna");
-
-    coluna.forEach((coluna, index)  =>{
-        setTimeout(() =>{
+    coluna.forEach((coluna, index) => {
+        setTimeout(() => {
             coluna.style.opacity = "1";
             coluna.style.transform = "translateY(0)";
-          }, 300 * index);
-    })
-
+        }, 300 * index);
     });
-    
-
+});

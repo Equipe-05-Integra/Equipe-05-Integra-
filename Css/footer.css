@@ -119,6 +119,12 @@ footer-componente.footer-visivel{
     text-decoration: none;
 }
 
+.footer_links .footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; 
+}
+
 .footer_links nav a {
     transition: transform 0.3s ease, color 0.3s ease;
     display: inline-block; 
